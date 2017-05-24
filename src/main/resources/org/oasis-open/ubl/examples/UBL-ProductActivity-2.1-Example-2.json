@@ -1,0 +1,150 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:ProductActivity-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "ProductActivity":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"ID0009"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2010-04-10"}],
+ "Note":[{"TextContent":"Report about movements of goods between Beta Shop's locations located in\n        Emilia-Romagna."}],
+ "ActivityPeriod":[{
+  "StartDate":[{"DateContent":"2010-04-09"}]
+ }],
+ "SenderParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Beta Shop"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Via Emilia"}],
+   "BuildingNumber":[{"TextContent":"1"}],
+   "CityName":[{"TextContent":"Modena"}],
+   "PostalZone":[{"TextContent":"41121"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Delta"}],
+   "Telephone":[{"TextContent":"0039 059 33000000"}],
+   "Telefax":[{"TextContent":"0039 059 33000055"}],
+   "ElectronicMail":[{"TextContent":"delta@betashop.it"}]
+  }]
+ }],
+ "ReceiverParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Arancio Forniture spa"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+   "BuildingNumber":[{"TextContent":"403"}],
+   "CityName":[{"TextContent":"Bologna"}],
+   "PostalZone":[{"TextContent":"40129"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Rossi"}],
+   "Telephone":[{"TextContent":"0039 051 23000000"}],
+   "Telefax":[{"TextContent":"0039 051 23000023"}],
+   "ElectronicMail":[{"TextContent":"rossi@arancioforniture.it"}]
+  }]
+ }],
+ "SupplyChainActivityDataLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "SupplyChainActivityTypeCode":[{"CodeContent":"SHIPMENTS"}],
+  "ActivityOriginLocation":[{
+   "Address":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }]
+  }],
+  "ActivityFinalLocation":[{
+   "Description":[{"TextContent":"Shop in the city center"}],
+   "Address":[{
+    "StreetName":[{"TextContent":"Via Rizzoli"}],
+    "BuildingNumber":[{"TextContent":"208"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40121"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }]
+  }],
+  "SalesItem":[{
+   "Quantity":[{"QuantityContent":20,
+    "QuantityUnitCode":"NAR"}],
+   "Item":[{
+    "Description":[{"TextContent":"shirt"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"SH009"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"DD88"}]
+    }]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"2"}],
+  "SupplyChainActivityTypeCode":[{"CodeContent":"SHIPMENTS"}],
+  "ActivityOriginLocation":[{
+   "Address":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }]
+  }],
+  "ActivityFinalLocation":[{
+   "Description":[{"TextContent":"Store"}],
+   "Address":[{
+    "StreetName":[{"TextContent":"Via Delle Fonti"}],
+    "BuildingNumber":[{"TextContent":"209"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40128"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }]
+  }],
+  "SalesItem":[{
+   "Quantity":[{"QuantityContent":200,
+    "QuantityUnitCode":"NAR"}],
+   "Item":[{
+    "Description":[{"TextContent":"shirt"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"SH009"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"DD88"}]
+    }]
+   }]
+  },{
+   "Quantity":[{"QuantityContent":150,
+    "QuantityUnitCode":"NAR"}],
+   "Item":[{
+    "Description":[{"TextContent":"trousers"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"TH009"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"DA008"}]
+    }]
+   }]
+  }]
+ }]
+}]}

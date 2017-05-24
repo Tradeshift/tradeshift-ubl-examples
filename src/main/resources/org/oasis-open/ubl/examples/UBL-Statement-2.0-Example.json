@@ -1,0 +1,240 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Statement-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "Statement":[{
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:Statement-2.0:sbs-1.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-statement-notification-draft"}],
+ "ID":[{"IdentifierContent":"JUL2005-07758990"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "UUID":[{"IdentifierContent":"normalizedString"}],
+ "IssueDate":[{"DateContent":"2005-08-02"}],
+ "Note":[{"TextContent":"please present invoice if this credit amount cannot be taken against a forthcoming payment"}],
+ "DocumentCurrencyCode":[{"CodeContent":"GBP"}],
+ "TotalDebitAmount":[{"AmountContent":0.00,
+  "AmountCurrencyIdentifier":"GBP"}],
+ "TotalCreditAmount":[{"AmountContent":107.50,
+  "AmountCurrencyIdentifier":"GBP"}],
+ "TotalBalanceAmount":[{"AmountContent":-107.50,
+  "AmountCurrencyIdentifier":"GBP"}],
+ "StatementPeriod":[{
+  "StartDate":[{"DateContent":"2005-07-01"}],
+  "EndDate":[{"DateContent":"2005-07-31"}],
+  "Description":[{"TextContent":"July"}]
+ }],
+ "AccountingSupplierParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"CO001"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Busy Street"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Farthing"}],
+    "PostalZone":[{"TextContent":"AA99 1BB"}],
+    "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"The Roundabout"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+    "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+    "ExemptionReason":[{"TextContent":"N/A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":"0158 1233714"}],
+    "Telefax":[{"TextContent":"0158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+   }]
+  }]
+ }],
+ "AccountingCustomerParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"XFB01"}],
+  "SupplierAssignedAccountID":[{"IdentifierContent":"GT00978567"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"IYT Corporation"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+    "CompanyID":[{"IdentifierContent":"12356478"}],
+    "ExemptionReason":[{"TextContent":"Local Authority"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Fred Churchill"}],
+    "Telephone":[{"TextContent":"0127 2653214"}],
+    "Telefax":[{"TextContent":"0127 2653215"}],
+    "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+   }]
+  }]
+ }],
+ "PayeeParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Consortial"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Busy Street"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Farthing"}],
+   "PostalZone":[{"TextContent":"AA99 1BB"}],
+   "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"The Roundabout"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }],
+  "PartyTaxScheme":[{
+   "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+   "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+   "ExemptionReason":[{"TextContent":"N/A"}],
+   "TaxScheme":[{
+    "ID":[{"IdentifierContent":"VAT"}],
+    "TaxTypeCode":[{"CodeContent":"VAT"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mrs Bouquet"}],
+   "Telephone":[{"TextContent":"0158 1233714"}],
+   "Telefax":[{"TextContent":"0158 1233856"}],
+   "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+  }]
+ }],
+ "PaymentMeans":[{
+  "PaymentMeansCode":[{"CodeContent":"20"}],
+  "PaymentDueDate":[{"DateContent":"2005-07-21"}],
+  "PayeeFinancialAccount":[{
+   "ID":[{"IdentifierContent":"12345678"}],
+   "Name":[{"TextContent":"Farthing Purchasing Consortium"}],
+   "AccountTypeCode":[{"CodeContent":"Current"}],
+   "CurrencyCode":[{"CodeContent":"GBP"}],
+   "FinancialInstitutionBranch":[{
+    "ID":[{"IdentifierContent":"10-26-58"}],
+    "Name":[{"TextContent":"Open Bank Ltd, Bridgstow Branch "}],
+    "FinancialInstitution":[{
+     "ID":[{"IdentifierContent":"10-26-58"}],
+     "Name":[{"TextContent":"Open Bank Ltd"}],
+     "Address":[{
+      "StreetName":[{"TextContent":"City Road"}],
+      "BuildingName":[{"TextContent":"Banking House"}],
+      "BuildingNumber":[{"TextContent":"12"}],
+      "CityName":[{"TextContent":"London"}],
+      "PostalZone":[{"TextContent":"AQ1 6TH"}],
+      "CountrySubentity":[{"TextContent":"London\n"}],
+      "AddressLine":[{
+       "Line":[{"TextContent":"5th Floor"}]
+      }],
+      "Country":[{
+       "IdentificationCode":[{"CodeContent":"GB"}]
+      }]
+     }]
+    }],
+    "Address":[{
+     "StreetName":[{"TextContent":"Busy Street"}],
+     "BuildingName":[{"TextContent":"The Mall"}],
+     "BuildingNumber":[{"TextContent":"152"}],
+     "CityName":[{"TextContent":"Farthing"}],
+     "PostalZone":[{"TextContent":"AA99 1BB"}],
+     "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"West Wing"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }]
+ }],
+ "PaymentTerms":[{
+  "Note":[{"TextContent":"Payment due immediately"}]
+ }],
+ "StatementLine":[{
+  "ID":[{"IdentifierContent":"normalizedString"}],
+  "Note":[{"TextContent":"String"}],
+  "BalanceBroughtForwardIndicator":[{"IndicatorContent":false}],
+  "DebitLineAmount":[{"AmountContent":0.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "CreditLineAmount":[{"AmountContent":107.50,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "BalanceAmount":[{"AmountContent":-107.50,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "OriginatorCustomerParty":[{
+   "Party":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"The Terminus"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "PartyTaxScheme":[{
+     "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+     "CompanyID":[{"IdentifierContent":"12356478"}],
+     "ExemptionReason":[{"TextContent":"Local Authority"}],
+     "TaxScheme":[{
+      "ID":[{"IdentifierContent":"UK VAT"}],
+      "TaxTypeCode":[{"CodeContent":"VAT"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"S Massiah"}],
+     "Telephone":[{"TextContent":"0127 98876545"}],
+     "Telefax":[{"TextContent":"0127 98876546"}],
+     "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+    }]
+   }]
+  }],
+  "BillingReference":[{
+   "CreditNoteDocumentReference":[{
+    "ID":[{"IdentifierContent":"CN758494"}],
+    "UUID":[{"IdentifierContent":"349ABBAE-DF9D-40B4-849F-94C5FF9D1AF4"}],
+    "IssueDate":[{"DateContent":"2005-06-25"}]
+   }]
+  }]
+ }]
+}]}

@@ -1,0 +1,587 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Waybill-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "Waybill":[{
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:Waybill-2.0:samples-2.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sample-international-scenario"}],
+ "ID":[{"IdentifierContent":"KHN23-44044-1"}],
+ "CarrierAssignedID":[{"IdentifierContent":"123456789987654321"}],
+ "UUID":[{"IdentifierContent":"74638995-D67E-002F-436-8G17366352B1"}],
+ "IssueDate":[{"DateContent":"2005-06-25"}],
+ "IssueTime":[{"TimeContent":"09:00:00.0Z"}],
+ "Name":[{"TextContent":"Air Waybill"}],
+ "ShippingOrderID":[{"IdentifierContent":"KHN23-44044"}],
+ "AdValoremIndicator":[{"IndicatorContent":false}],
+ "DeclaredCarriageValueAmount":[{"AmountContent":1500.00,
+  "AmountCurrencyIdentifier":"USD"}],
+ "ConsignorParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Consortial"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Boston Road"}],
+   "BuildingName":[{"TextContent":"Suite M-102"}],
+   "BuildingNumber":[{"TextContent":"630"}],
+   "CityName":[{"TextContent":"Billerica"}],
+   "PostalZone":[{"TextContent":"01821"}],
+   "CountrySubentity":[{"TextContent":"Massachusetts"}],
+   "CountrySubentityCode":[{"CodeContent":"MA"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mrs Bouquet"}],
+   "Telephone":[{"TextContent":" +1 158 1233714"}],
+   "Telefax":[{"TextContent":"+ 1 158 1233856"}],
+   "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.com"}]
+  }]
+ }],
+ "CarrierParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"United Airfreight"}]
+  }],
+  "Contact":[{
+   "ID":[{"IdentifierContent":"Freight Bookings"}],
+   "Telephone":[{"TextContent":"+1 3362 4788"}],
+   "ElectronicMail":[{"TextContent":"bookings@unitedfreight.com"}]
+  }]
+ }],
+ "FreightForwarderParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"One-Stop Forwarders"}]
+  }],
+  "PostalAddress":[{
+   "Postbox":[{"TextContent":"99043"}],
+   "CityName":[{"TextContent":"Boston"}],
+   "PostalZone":[{"TextContent":"02210"}],
+   "CountrySubentityCode":[{"CodeContent":"MA"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Con Solidador"}],
+   "Telephone":[{"TextContent":" +1 343 1453654"}],
+   "Telefax":[{"TextContent":"+1 343 1453655"}],
+   "ElectronicMail":[{"TextContent":"ctanner@onestopfreight.com"}]
+  }]
+ }],
+ "Shipment":[{
+  "ID":[{"IdentifierContent":"CONS-0001"}],
+  "GrossWeightMeasure":[{"MeasureContent":130,
+   "MeasureUnitCode":"KGM"}],
+  "NetWeightMeasure":[{"MeasureContent":110,
+   "MeasureUnitCode":"KGM"}],
+  "NetNetWeightMeasure":[{"MeasureContent":100,
+   "MeasureUnitCode":"KGM"}],
+  "GrossVolumeMeasure":[{"MeasureContent":2,
+   "MeasureUnitCode":"MTQ"}],
+  "NetVolumeMeasure":[{"MeasureContent":2.235,
+   "MeasureUnitCode":"MTQ"}],
+  "TotalGoodsItemQuantity":[{"QuantityContent":1}],
+  "TotalTransportHandlingUnitQuantity":[{"QuantityContent":10}],
+  "InsuranceValueAmount":[{"AmountContent":1000.00,
+   "AmountCurrencyIdentifier":"USD"}],
+  "DeclaredCustomsValueAmount":[{"AmountContent":524.80,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "FreeOnBoardValueAmount":[{"AmountContent":1200.00,
+   "AmountCurrencyIdentifier":"USD"}],
+  "SpecialInstructions":[{"TextContent":"Beeswax becomes liquid at 50'C"}],
+  "Consignment":[{
+   "ID":[{"IdentifierContent":"2005US12345678998765432112345678",
+    "IdentificationSchemeAgencyNameText":"WCO",
+    "IdentificationSchemeNameText":"Unique Consignment Reference"}],
+   "TariffDescription":[{"TextContent":"Beeswax, other insect waxes and spermacetti"}],
+   "TariffCode":[{"CodeContent":"15219000"}],
+   "HazardousRiskIndicator":[{"IndicatorContent":false}],
+   "ConsigneeParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"IYT Corporation"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"Mr Fred Churchill"}],
+     "Telephone":[{"TextContent":"+44 127 2653214"}],
+     "Telefax":[{"TextContent":"+44 127 2653215"}],
+     "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+    }]
+   }],
+   "NotifyParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"IYT Corporation"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"Mr Fred Churchill"}],
+     "Telephone":[{"TextContent":"+44 127 2653214"}],
+     "Telefax":[{"TextContent":"+44 127 2653215"}],
+     "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+    }]
+   }],
+   "FinalDeliveryParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"The Terminus"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"S Massiah"}],
+     "Telephone":[{"TextContent":"+ 44 127 98876545"}],
+     "Telefax":[{"TextContent":"+ 44 127 98876546"}],
+     "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+    }]
+   }],
+   "OriginalDepartureCountry":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }],
+   "FinalDestinationCountry":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }],
+   "TransportContract":[{
+    "ID":[{"IdentifierContent":"CONS-001"}],
+    "IssueDate":[{"DateContent":"2005-06-24"}],
+    "ContractType":[{"TextContent":"Forwarding Instructions"}],
+    "ValidityPeriod":[{
+     "StartDate":[{"DateContent":"2005-06-25"}],
+     "StartTime":[{"TimeContent":"01:00:00.0Z"}],
+     "EndDate":[{"DateContent":"2005-06-30"}],
+     "EndTime":[{"TimeContent":"18:00:00.0Z"}]
+    }],
+    "ContractDocumentReference":[{
+     "ID":[{"IdentifierContent":"normalizedString"}],
+     "CopyIndicator":[{"IndicatorContent":false}],
+     "UUID":[{"IdentifierContent":"normalizedString"}],
+     "IssueDate":[{"DateContent":"1967-08-13"}],
+     "DocumentTypeCode":[{"CodeContent":"normalizedString"}],
+     "DocumentType":[{"TextContent":"String"}],
+     "XPath":[{"TextContent":"String"},
+     {"TextContent":"String"}],
+     "Attachment":[{
+      "EmbeddedDocumentBinaryObject":[{"BinaryObjectContent":"UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi",
+       "BinaryObjectMimeCode":"application/CSTAdata+xml"}],
+      "ExternalReference":[{
+       "URI":[{"IdentifierContent":"normalizedString"}],
+       "DocumentHash":[{"TextContent":"String"}],
+       "ExpiryDate":[{"DateContent":"1967-08-13"}],
+       "ExpiryTime":[{"TimeContent":"14:20:00.0Z"}]
+      }]
+     }]
+    },{
+     "ID":[{"IdentifierContent":"normalizedString"}],
+     "CopyIndicator":[{"IndicatorContent":false}],
+     "UUID":[{"IdentifierContent":"normalizedString"}],
+     "IssueDate":[{"DateContent":"1967-08-13"}],
+     "DocumentTypeCode":[{"CodeContent":"normalizedString"}],
+     "DocumentType":[{"TextContent":"String"}],
+     "XPath":[{"TextContent":"String"},
+     {"TextContent":"String"}],
+     "Attachment":[{
+      "EmbeddedDocumentBinaryObject":[{"BinaryObjectContent":"UjBsR09EbGhjZ0dTQUxNQUFBUUNBRU1tQ1p0dU1GUXhEUzhi",
+       "BinaryObjectMimeCode":"application/CSTAdata+xml"}],
+      "ExternalReference":[{
+       "URI":[{"IdentifierContent":"normalizedString"}],
+       "DocumentHash":[{"TextContent":"String"}],
+       "ExpiryDate":[{"DateContent":"1967-08-13"}],
+       "ExpiryTime":[{"TimeContent":"14:20:00.0Z"}]
+      }]
+     }]
+    }]
+   }],
+   "OriginalDespatchTransportationService":[{
+    "TransportServiceCode":[{"CodeContent":"Door to Pier"}]
+   }],
+   "FinalDeliveryTransportationService":[{
+    "TransportServiceCode":[{"CodeContent":"Pier to Pier"}]
+   }],
+   "DeliveryTerms":[{
+    "ID":[{"IdentifierContent":"FOB Destination"}],
+    "DeliveryLocation":[{
+     "ID":[{"IdentifierContent":"GBBRS",
+      "IdentificationSchemeAgencyIdentifier":"6",
+      "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+     "Description":[{"TextContent":"Bristol"}]
+    }]
+   }],
+   "PaymentTerms":[{
+    "PaymentMeansID":[{"IdentifierContent":"Bankers Cheque"}]
+   }],
+   "FreightAllowanceCharge":[{
+    "ChargeIndicator":[{"IndicatorContent":true}],
+    "AllowanceChargeReason":[{"TextContent":"Freight charges"}],
+    "SequenceNumeric":[{"NumericContent":1}],
+    "Amount":[{"AmountContent":254.00,
+     "AmountCurrencyIdentifier":"USD"}]
+   },{
+    "ChargeIndicator":[{"IndicatorContent":false}],
+    "AllowanceChargeReasonCode":[{"CodeContent":"79"}],
+    "AllowanceChargeReason":[{"TextContent":"Sundry discount"}],
+    "MultiplierFactorNumeric":[{"NumericContent":0.05}],
+    "SequenceNumeric":[{"NumericContent":2}],
+    "Amount":[{"AmountContent":12.70,
+     "AmountCurrencyIdentifier":"USD"}],
+    "BaseAmount":[{"AmountContent":254.00,
+     "AmountCurrencyIdentifier":"USD"}]
+   }]
+  }],
+  "GoodsItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "SequenceNumberID":[{"IdentifierContent":"1"}],
+   "Description":[{"TextContent":"Acme beeswax"}],
+   "HazardousRiskIndicator":[{"IndicatorContent":false}],
+   "DeclaredCustomsValueAmount":[{"AmountContent":524.80,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "DeclaredStatisticsValueAmount":[{"AmountContent":1000.00,
+    "AmountCurrencyIdentifier":"USD"}],
+   "FreeOnBoardValueAmount":[{"AmountContent":1241.30,
+    "AmountCurrencyIdentifier":"USD"}],
+   "InsuranceValueAmount":[{"AmountContent":1241.30,
+    "AmountCurrencyIdentifier":"USD"}],
+   "ValueAmount":[{"AmountContent":1000.00,
+    "AmountCurrencyIdentifier":"USD"}],
+   "GrossWeightMeasure":[{"MeasureContent":130,
+    "MeasureUnitCode":"KGM"}],
+   "NetWeightMeasure":[{"MeasureContent":110,
+    "MeasureUnitCode":"KGM"}],
+   "NetNetWeightMeasure":[{"MeasureContent":100,
+    "MeasureUnitCode":"KGM"}],
+   "GrossVolumeMeasure":[{"MeasureContent":2,
+    "MeasureUnitCode":"MTQ"}],
+   "NetVolumeMeasure":[{"MeasureContent":2.235,
+    "MeasureUnitCode":"MTQ"}],
+   "Quantity":[{"QuantityContent":10}],
+   "RequiredCustomsID":[{"IdentifierContent":"ECN12344566"}],
+   "CustomsStatusCode":[{"CodeContent":"Cleared"}],
+   "CustomsTariffQuantity":[{"QuantityContent":1000}],
+   "Item":[{
+    "Description":[{"TextContent":"Beeswax"}],
+    "Name":[{"TextContent":"Acme Beeswax"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"6578489"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"17589683"}]
+    }],
+    "OriginCountry":[{
+     "IdentificationCode":[{"CodeContent":"MX"}],
+     "Name":[{"TextContent":"Mexico"}]
+    }]
+   }]
+  }],
+  "ShipmentStage":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "TransportModeCode":[{"CodeContent":"3",
+    "CodeListAgencyIdentifier":"6",
+    "CodeListIdentifier":"UN/ECE rec 16"}],
+   "TransportMeansTypeCode":[{"CodeContent":"Truck"}],
+   "PreCarriageIndicator":[{"IndicatorContent":true}],
+   "OnCarriageIndicator":[{"IndicatorContent":false}],
+   "TransitPeriod":[{
+    "StartDate":[{"DateContent":"2005-06-25"}],
+    "StartTime":[{"TimeContent":"11:35:00.0Z"}],
+    "EndDate":[{"DateContent":"2005-06-25"}],
+    "EndTime":[{"TimeContent":"16:00:00.0Z"}]
+   }],
+   "CarrierParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"Keep On Trucking"}]
+    }],
+    "Contact":[{
+     "Telephone":[{"TextContent":"+1 36222 33847"}]
+    }]
+   }],
+   "TransportMeans":[{
+    "RoadTransport":[{
+     "LicensePlateID":[{"IdentifierContent":"2652 WE"}]
+    }]
+   }]
+  },{
+   "ID":[{"IdentifierContent":"2"}],
+   "TransportModeCode":[{"CodeContent":"4",
+    "CodeListAgencyIdentifier":"6",
+    "CodeListIdentifier":"UN/ECE rec 16"}],
+   "TransportMeansTypeCode":[{"CodeContent":"Plane"}],
+   "PreCarriageIndicator":[{"IndicatorContent":false}],
+   "OnCarriageIndicator":[{"IndicatorContent":false}],
+   "TransitPeriod":[{
+    "StartDate":[{"DateContent":"2005-06-25"}],
+    "StartTime":[{"TimeContent":"23:20:00.0Z"}]
+   }],
+   "CarrierParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"United Airfreight"}]
+    }],
+    "Contact":[{
+     "ID":[{"IdentifierContent":"Freight Bookings"}],
+     "Telephone":[{"TextContent":"+1 3362 4788"}],
+     "ElectronicMail":[{"TextContent":"bookings@unitedfreight.com"}]
+    }]
+   }],
+   "TransportMeans":[{
+    "JourneyID":[{"IdentifierContent":"UA 1234"}],
+    "AirTransport":[{
+     "AircraftID":[{"IdentifierContent":"A-127763-747"}]
+    }]
+   }],
+   "LoadingPortLocation":[{
+    "ID":[{"IdentifierContent":"USBOS",
+     "IdentificationSchemeAgencyIdentifier":"6",
+     "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+    "Description":[{"TextContent":"Boston Airport"}]
+   }],
+   "UnloadingPortLocation":[{
+    "ID":[{"IdentifierContent":"GBBRS",
+     "IdentificationSchemeAgencyIdentifier":"6",
+     "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+    "Description":[{"TextContent":"Bristol Airport"}]
+   }],
+   "TransshipPortLocation":[{
+    "ID":[{"IdentifierContent":"GBLHR",
+     "IdentificationSchemeAgencyIdentifier":"6",
+     "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+    "Description":[{"TextContent":"Heathrow Apt/London"}]
+   }]
+  }],
+  "Delivery":[{
+   "Quantity":[{"QuantityContent":1}],
+   "LatestDeliveryDate":[{"DateContent":"2005-06-30"}],
+   "LatestDeliveryTime":[{"TimeContent":"18:00:00.0Z"}],
+   "TrackingID":[{"IdentifierContent":"NKH7712289-03339-000128"}],
+   "DeliveryAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "RequestedDeliveryPeriod":[{
+    "StartDate":[{"DateContent":"2005-06-29"}],
+    "StartTime":[{"TimeContent":"01:00:00.0Z"}],
+    "EndDate":[{"DateContent":"2005-06-30"}],
+    "EndTime":[{"TimeContent":"18:00:00.0Z"}]
+   }],
+   "EstimatedDeliveryPeriod":[{
+    "StartDate":[{"DateContent":"2005-06-30"}],
+    "StartTime":[{"TimeContent":"01:00:00.0Z"}]
+   }],
+   "DeliveryParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"The Terminus"}]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"S Massiah"}],
+     "Telephone":[{"TextContent":"+ 44 127 98876545"}],
+     "Telefax":[{"TextContent":"+ 44 127 98876546"}],
+     "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+    }]
+   }],
+   "Despatch":[{
+    "ActualDespatchDate":[{"DateContent":"2005-06-25"}],
+    "ActualDespatchTime":[{"TimeContent":"11:35:00.0Z"}],
+    "DespatchAddress":[{
+     "StreetName":[{"TextContent":"Boston Road"}],
+     "BuildingName":[{"TextContent":"Suite M-102"}],
+     "BuildingNumber":[{"TextContent":"630"}],
+     "CityName":[{"TextContent":"Billerica"}],
+     "PostalZone":[{"TextContent":"01821"}],
+     "CountrySubentity":[{"TextContent":"Massachusetts"}],
+     "CountrySubentityCode":[{"CodeContent":"MA"}],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"US"}]
+     }]
+    }],
+    "DespatchParty":[{
+     "PartyName":[{
+      "Name":[{"TextContent":"Consortial"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"Mrs Bouquet"}],
+     "Telephone":[{"TextContent":" +1 158 1233714"}],
+     "Telefax":[{"TextContent":"+ 1 158 1233856"}],
+     "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.com"}]
+    }]
+   }]
+  }],
+  "TransportHandlingUnit":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "TransportHandlingUnitTypeCode":[{"CodeContent":"PA",
+    "CodeListAgencyNameText":"United Nations Economic Commission for Europe",
+    "CodeListIdentifier":"TRED 8053"}],
+   "HazardousRiskIndicator":[{"IndicatorContent":false}],
+   "TotalGoodsItemQuantity":[{"QuantityContent":10}],
+   "TotalPackageQuantity":[{"QuantityContent":10}],
+   "ActualPackage":[{
+    "Quantity":[{"QuantityContent":10}],
+    "PackagingTypeCode":[{"CodeContent":"TB",
+     "CodeListAgencyIdentifier":"6",
+     "CodeListIdentifier":"UN/ECE rec 21"}]
+   }]
+  }],
+  "OriginAddress":[{
+   "StreetName":[{"TextContent":"Boston Road"}],
+   "BuildingName":[{"TextContent":"Suite M-102"}],
+   "BuildingNumber":[{"TextContent":"630"}],
+   "CityName":[{"TextContent":"Billerica"}],
+   "PostalZone":[{"TextContent":"01821"}],
+   "CountrySubentity":[{"TextContent":"Massachusetts"}],
+   "CountrySubentityCode":[{"CodeContent":"MA"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }]
+  }],
+  "FirstArrivalPortLocation":[{
+   "ID":[{"IdentifierContent":"GBBRS",
+    "IdentificationSchemeAgencyIdentifier":"6",
+    "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+   "Description":[{"TextContent":"Bristol"}]
+  }],
+  "LastExitPortLocation":[{
+   "ID":[{"IdentifierContent":"USBOS",
+    "IdentificationSchemeAgencyIdentifier":"6",
+    "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+   "Description":[{"TextContent":"Boston"}]
+  }],
+  "ExportCountry":[{
+   "IdentificationCode":[{"CodeContent":"US"}]
+  }],
+  "FreightAllowanceCharge":[{
+   "ChargeIndicator":[{"IndicatorContent":true}],
+   "AllowanceChargeReason":[{"TextContent":"Freight charges"}],
+   "SequenceNumeric":[{"NumericContent":1}],
+   "Amount":[{"AmountContent":254.00,
+    "AmountCurrencyIdentifier":"USD"}]
+  },{
+   "ChargeIndicator":[{"IndicatorContent":false}],
+   "AllowanceChargeReasonCode":[{"CodeContent":"79"}],
+   "AllowanceChargeReason":[{"TextContent":"Sundry discount"}],
+   "MultiplierFactorNumeric":[{"NumericContent":0.05}],
+   "SequenceNumeric":[{"NumericContent":2}],
+   "Amount":[{"AmountContent":12.70,
+    "AmountCurrencyIdentifier":"USD"}],
+   "BaseAmount":[{"AmountContent":254.00,
+    "AmountCurrencyIdentifier":"USD"}]
+  }]
+ }],
+ "DocumentReference":[{
+  "ID":[{"IdentifierContent":"AEG012345"}],
+  "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7CCAC7F4E3B1"}],
+  "IssueDate":[{"DateContent":"2005-06-20"}],
+  "DocumentType":[{"TextContent":"Order"}]
+ },{
+  "ID":[{"IdentifierContent":"KHN23-44044"}],
+  "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7C83746352B1"}],
+  "IssueDate":[{"DateContent":"2005-06-24"}],
+  "DocumentType":[{"TextContent":"Forwarding Instructions"}]
+ }],
+ "ExchangeRate":[{
+  "SourceCurrencyCode":[{"CodeContent":"USD"}],
+  "SourceCurrencyBaseRate":[{"NumericContent":1.00}],
+  "TargetCurrencyCode":[{"CodeContent":"GBP"}],
+  "TargetCurrencyBaseRate":[{"NumericContent":1.00}],
+  "CalculationRate":[{"NumericContent":1.8947}],
+  "MathematicOperatorCode":[{"CodeContent":"Multiply"}],
+  "Date":[{"DateContent":"1967-08-13"}]
+ }],
+ "DocumentDistribution":[{
+  "PrintQualifier":[{"TextContent":"Copies allowed"}],
+  "MaximumCopiesNumeric":[{"NumericContent":5}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Boston Road"}],
+    "BuildingName":[{"TextContent":"Suite M-102"}],
+    "BuildingNumber":[{"TextContent":"630"}],
+    "CityName":[{"TextContent":"Billerica"}],
+    "PostalZone":[{"TextContent":"01821"}],
+    "CountrySubentity":[{"TextContent":"Massachusetts"}],
+    "CountrySubentityCode":[{"CodeContent":"MA"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"US"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":" +1 158 1233714"}],
+    "Telefax":[{"TextContent":"+ 1 158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.com"}]
+   }]
+  }]
+ },{
+  "PrintQualifier":[{"TextContent":"Copies allowed"}],
+  "MaximumCopiesNumeric":[{"NumericContent":4}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"IYT Corporation"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Fred Churchill"}],
+    "Telephone":[{"TextContent":"+44 127 2653214"}],
+    "Telefax":[{"TextContent":"+44 127 2653215"}],
+    "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+   }]
+  }]
+ }]
+}]}

@@ -1,0 +1,102 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:FulfilmentCancellation-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "FulfilmentCancellation":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"00384"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2005-06-22"}],
+ "Note":[{"TextContent":"sample"}],
+ "CancellationNote":[{"TextContent":"The quality check has detected that the beeswax doesn't become liquid at the\n        expected temperature."}],
+ "DespatchDocumentReference":[{
+  "ID":[{"IdentifierContent":"565899"}],
+  "UUID":[{"IdentifierContent":"88C7280E-8F10-419F-9949-8EFFFA2842B8"}],
+  "IssueDate":[{"DateContent":"2005-06-20"}]
+ }],
+ "ReceiptDocumentReference":[{
+  "ID":[{"IdentifierContent":"658398"}],
+  "UUID":[{"IdentifierContent":"89F82FA6-5331-491D-83BC-7B6CA7FD047C"}],
+  "IssueDate":[{"DateContent":"2005-06-21"}]
+ }],
+ "OrderReference":[{
+  "ID":[{"IdentifierContent":"AEG012345"}],
+  "SalesOrderID":[{"IdentifierContent":"CON0095678"}],
+  "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7CCAC7F4E3B1"}],
+  "IssueDate":[{"DateContent":"2005-06-20"}]
+ }],
+ "BuyerCustomerParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"XFB01"}],
+  "SupplierAssignedAccountID":[{"IdentifierContent":"GT00978567"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"IYT Corporation"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+    "CompanyID":[{"IdentifierContent":"12356478"}],
+    "ExemptionReason":[{"TextContent":"Local Authority"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Fred Churchill"}],
+    "Telephone":[{"TextContent":"0127 2653214"}],
+    "Telefax":[{"TextContent":"0127 2653215"}],
+    "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+   }]
+  }]
+ }],
+ "SellerSupplierParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"CO001"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Busy Street"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Farthing"}],
+    "PostalZone":[{"TextContent":"AA99 1BB"}],
+    "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"The Roundabout"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+    "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+    "ExemptionReason":[{"TextContent":"N/A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":"0158 1233714"}],
+    "Telefax":[{"TextContent":"0158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+   }]
+  }]
+ }]
+}]}

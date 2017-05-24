@@ -1,0 +1,230 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:ForwardingInstructions-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "ForwardingInstructions":[{
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:ForwardingInstructions-2.0:samples-2.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sample-international-scenario"}],
+ "ID":[{"IdentifierContent":"KHN23-44044"}],
+ "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7C83746352B1"}],
+ "IssueDate":[{"DateContent":"2005-06-24"}],
+ "IssueTime":[{"TimeContent":"14:20:00.0Z"}],
+ "ConsignorParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Consortial"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Boston Road"}],
+   "BuildingName":[{"TextContent":"Suite M-102"}],
+   "BuildingNumber":[{"TextContent":"630"}],
+   "CityName":[{"TextContent":"Billerica"}],
+   "PostalZone":[{"TextContent":"01821"}],
+   "CountrySubentity":[{"TextContent":"Massachusetts"}],
+   "CountrySubentityCode":[{"CodeContent":"MA"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mrs Bouquet"}],
+   "Telephone":[{"TextContent":" +1 158 1233714"}],
+   "Telefax":[{"TextContent":"+ 1 158 1233856"}],
+   "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.com"}]
+  }]
+ }],
+ "FreightForwarderParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"One-Stop Forwarders"}]
+  }],
+  "PostalAddress":[{
+   "Postbox":[{"TextContent":"99043"}],
+   "CityName":[{"TextContent":"Boston"}],
+   "PostalZone":[{"TextContent":"02210"}],
+   "CountrySubentityCode":[{"CodeContent":"MA"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Con Solidador"}],
+   "Telephone":[{"TextContent":" +1 343 1453654"}],
+   "Telefax":[{"TextContent":"+1 343 1453655"}],
+   "ElectronicMail":[{"TextContent":"ctanner@onestopfreight.com"}]
+  }]
+ }],
+ "Shipment":[{
+  "ID":[{"IdentifierContent":"CONS-0001"}],
+  "GrossWeightMeasure":[{"MeasureContent":130,
+   "MeasureUnitCode":"KGM"}],
+  "NetWeightMeasure":[{"MeasureContent":110,
+   "MeasureUnitCode":"KGM"}],
+  "NetNetWeightMeasure":[{"MeasureContent":100,
+   "MeasureUnitCode":"KGM"}],
+  "GrossVolumeMeasure":[{"MeasureContent":2,
+   "MeasureUnitCode":"MTQ"}],
+  "NetVolumeMeasure":[{"MeasureContent":2.235,
+   "MeasureUnitCode":"MTQ"}],
+  "TotalGoodsItemQuantity":[{"QuantityContent":1}],
+  "TotalTransportHandlingUnitQuantity":[{"QuantityContent":10}],
+  "InsuranceValueAmount":[{"AmountContent":1000.00,
+   "AmountCurrencyIdentifier":"USD"}],
+  "DeclaredCustomsValueAmount":[{"AmountContent":524.80,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "FreeOnBoardValueAmount":[{"AmountContent":1200.00,
+   "AmountCurrencyIdentifier":"USD"}],
+  "SpecialInstructions":[{"TextContent":"Beeswax becomes liquid at 50'C"}],
+  "Consignment":[{
+   "ID":[{"IdentifierContent":"CONS-0001"}],
+   "TariffDescription":[{"TextContent":"Beeswax, other insect waxes and spermacetti"}],
+   "TariffCode":[{"CodeContent":"15219000"}],
+   "HazardousRiskIndicator":[{"IndicatorContent":false}],
+   "ConsigneeParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"IYT Corporation"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"Mr Fred Churchill"}],
+     "Telephone":[{"TextContent":"+44 127 2653214"}],
+     "Telefax":[{"TextContent":"+44 127 2653215"}],
+     "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+    }]
+   }],
+   "NotifyParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"IYT Corporation"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"Mr Fred Churchill"}],
+     "Telephone":[{"TextContent":"+44 127 2653214"}],
+     "Telefax":[{"TextContent":"+44 127 2653215"}],
+     "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+    }]
+   }],
+   "FinalDeliveryParty":[{
+    "PartyName":[{
+     "Name":[{"TextContent":"The Terminus"}]
+    }],
+    "PostalAddress":[{
+     "StreetName":[{"TextContent":"Avon Way"}],
+     "BuildingName":[{"TextContent":"Thereabouts"}],
+     "BuildingNumber":[{"TextContent":"56A"}],
+     "CityName":[{"TextContent":"Bridgtow"}],
+     "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+     "CountrySubentity":[{"TextContent":"Avon"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"3rd Floor, Room 5"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }],
+    "Contact":[{
+     "Name":[{"TextContent":"S Massiah"}],
+     "Telephone":[{"TextContent":"+ 44 127 98876545"}],
+     "Telefax":[{"TextContent":"+ 44 127 98876546"}],
+     "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+    }]
+   }],
+   "OriginalDepartureCountry":[{
+    "IdentificationCode":[{"CodeContent":"US"}]
+   }],
+   "FinalDestinationCountry":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }],
+   "DeliveryTerms":[{
+    "ID":[{"IdentifierContent":"FOB Destination"}],
+    "DeliveryLocation":[{
+     "ID":[{"IdentifierContent":"GBBRS",
+      "IdentificationSchemeAgencyIdentifier":"6",
+      "IdentificationSchemeIdentifier":"UN/LOCODE"}],
+     "Description":[{"TextContent":"Bristol"}]
+    }]
+   }],
+   "FreightAllowanceCharge":[{
+    "ChargeIndicator":[{"IndicatorContent":true}],
+    "AllowanceChargeReason":[{"TextContent":"Freight charges"}],
+    "SequenceNumeric":[{"NumericContent":1}],
+    "Amount":[{"AmountContent":254.00,
+     "AmountCurrencyIdentifier":"USD"}]
+   },{
+    "ChargeIndicator":[{"IndicatorContent":false}],
+    "AllowanceChargeReasonCode":[{"CodeContent":"79"}],
+    "AllowanceChargeReason":[{"TextContent":"Sundry discount"}],
+    "MultiplierFactorNumeric":[{"NumericContent":0.05}],
+    "SequenceNumeric":[{"NumericContent":2}],
+    "Amount":[{"AmountContent":12.70,
+     "AmountCurrencyIdentifier":"USD"}],
+    "BaseAmount":[{"AmountContent":254.00,
+     "AmountCurrencyIdentifier":"USD"}]
+   }]
+  }],
+  "GoodsItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "SequenceNumberID":[{"IdentifierContent":"1"}],
+   "Description":[{"TextContent":"Acme beeswax"}],
+   "HazardousRiskIndicator":[{"IndicatorContent":false}],
+   "DeclaredCustomsValueAmount":[{"AmountContent":524.80,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "DeclaredStatisticsValueAmount":[{"AmountContent":1000.00,
+    "AmountCurrencyIdentifier":"USD"}],
+   "FreeOnBoardValueAmount":[{"AmountContent":1241.30,
+    "AmountCurrencyIdentifier":"USD"}],
+   "InsuranceValueAmount":[{"AmountContent":1241.30,
+    "AmountCurrencyIdentifier":"USD"}],
+   "ValueAmount":[{"AmountContent":1000.00,
+    "AmountCurrencyIdentifier":"USD"}],
+   "GrossWeightMeasure":[{"MeasureContent":130,
+    "MeasureUnitCode":"KGM"}],
+   "NetWeightMeasure":[{"MeasureContent":110,
+    "MeasureUnitCode":"KGM"}],
+   "NetNetWeightMeasure":[{"MeasureContent":100,
+    "MeasureUnitCode":"KGM"}],
+   "GrossVolumeMeasure":[{"MeasureContent":2,
+    "MeasureUnitCode":"MTQ"}],
+   "NetVolumeMeasure":[{"MeasureContent":2.235,
+    "MeasureUnitCode":"MTQ"}],
+   "Quantity":[{"QuantityContent":10}],
+   "RequiredCustomsID":[{"IdentifierContent":"ECN12344566"}],
+   "CustomsStatusCode":[{"CodeContent":"Cleared"}],
+   "CustomsTariffQuantity":[{"QuantityContent":100}],
+   "Item":[{
+    "Description":[{"TextContent":"Beeswax"}],
+    "Name":[{"TextContent":"Acme Beeswax"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"6578489"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"17589683"}]
+    }]
+   }]
+  }]
+ }]
+}]}

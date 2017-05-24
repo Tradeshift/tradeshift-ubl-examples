@@ -1,0 +1,100 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:ProductActivity-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "ProductActivity":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"ID0113"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2010-04-08"}],
+ "Note":[{"TextContent":"Report about sales of goods in Beta Shop's shops located in Bologna."}],
+ "ActivityPeriod":[{
+  "StartDate":[{"DateContent":"2010-04-07"}]
+ }],
+ "SenderParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Beta Shop"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Via Emilia"}],
+   "BuildingNumber":[{"TextContent":"1"}],
+   "CityName":[{"TextContent":"Modena"}],
+   "PostalZone":[{"TextContent":"41121"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Delta"}],
+   "Telephone":[{"TextContent":"0039 059 33000000"}],
+   "Telefax":[{"TextContent":"0039 059 33000055"}],
+   "ElectronicMail":[{"TextContent":"delta@betashop.it"}]
+  }]
+ }],
+ "ReceiverParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Arancio Forniture spa"}]
+  }],
+  "PostalAddress":[{
+   "Floor":[{"TextContent":"5"}],
+   "Room":[{"TextContent":"29"}],
+   "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+   "BuildingNumber":[{"TextContent":"403"}],
+   "Department":[{"TextContent":"Marketing Office"}],
+   "CityName":[{"TextContent":"Bologna"}],
+   "PostalZone":[{"TextContent":"40129"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Rossi"}],
+   "Telephone":[{"TextContent":"0039 051 23000000"}],
+   "Telefax":[{"TextContent":"0039 051 23000023"}],
+   "ElectronicMail":[{"TextContent":"rossi@arancioforniture.it"}]
+  }]
+ }],
+ "SupplyChainActivityDataLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "SupplyChainActivityTypeCode":[{"CodeContent":"SALES"}],
+  "ActivityOriginLocation":[{
+   "Description":[{"TextContent":"Shop in the city center"}],
+   "Address":[{
+    "StreetName":[{"TextContent":"Via Rizzoli"}],
+    "BuildingNumber":[{"TextContent":"208"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40121"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }]
+  }],
+  "SalesItem":[{
+   "Quantity":[{"QuantityContent":8,
+    "QuantityUnitCode":"NAR"}],
+   "Item":[{
+    "Description":[{"TextContent":"shirt"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"SH009"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"DD88"}]
+    }]
+   }]
+  },{
+   "Quantity":[{"QuantityContent":3,
+    "QuantityUnitCode":"NAR"}],
+   "Item":[{
+    "Description":[{"TextContent":"trousers"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"TH009"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"DA008"}]
+    }]
+   }]
+  }]
+ }]
+}]}

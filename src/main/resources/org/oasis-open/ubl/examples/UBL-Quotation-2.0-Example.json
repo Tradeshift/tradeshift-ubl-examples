@@ -1,0 +1,237 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Quotation-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "Quotation":[{
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:schema:xsd:Quotation-2-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-request-for-quotation-draft"}],
+ "ID":[{"IdentifierContent":"QIY7655"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "UUID":[{"IdentifierContent":"4D07786B-DA6D-439F-82D1-6FFFC7F4E3B1"}],
+ "IssueDate":[{"DateContent":"2005-06-20"}],
+ "Note":[{"TextContent":"sample"}],
+ "ValidityPeriod":[{
+  "StartDate":[{"DateContent":"2005-06-20"}],
+  "EndDate":[{"DateContent":"2005-07-20"}]
+ }],
+ "RequestForQuotationDocumentReference":[{
+  "ID":[{"IdentifierContent":"G867B"}],
+  "UUID":[{"IdentifierContent":"8D076867-AE6D-439F-8281-5AAFC7F4E3B1"}],
+  "IssueDate":[{"DateContent":"2005-06-19"}]
+ }],
+ "SellerSupplierParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"CO001"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Busy Street"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Farthing"}],
+    "PostalZone":[{"TextContent":"AA99 1BB"}],
+    "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"The Roundabout"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+    "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+    "ExemptionReason":[{"TextContent":"N/A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":"0158 1233714"}],
+    "Telefax":[{"TextContent":"0158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+   }]
+  }]
+ }],
+ "OriginatorCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"The Terminus"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+    "CompanyID":[{"IdentifierContent":"12356478"}],
+    "ExemptionReason":[{"TextContent":"Local Authority"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"S Massiah"}],
+    "Telephone":[{"TextContent":"0127 98876545"}],
+    "Telefax":[{"TextContent":"0127 98876546"}],
+    "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+   }]
+  }]
+ }],
+ "Delivery":[{
+  "DeliveryAddress":[{
+   "StreetName":[{"TextContent":"Avon Way"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Bridgtow"}],
+   "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+   "CountrySubentity":[{"TextContent":"Avon"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"3rd Floor, Room 5"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }],
+  "RequestedDeliveryPeriod":[{
+   "StartDate":[{"DateContent":"2005-06-29"}],
+   "StartTime":[{"TimeContent":"09:30:47.0Z"}],
+   "EndDate":[{"DateContent":"2005-06-29"}],
+   "EndTime":[{"TimeContent":"09:30:47.0Z"}]
+  }]
+ }],
+ "DeliveryTerms":[{
+  "SpecialTerms":[{"TextContent":"1% deduction for late delivery as per contract"}]
+ }],
+ "PaymentMeans":[{
+  "PaymentMeansCode":[{"CodeContent":"20"}],
+  "PayeeFinancialAccount":[{
+   "ID":[{"IdentifierContent":"12345678"}],
+   "Name":[{"TextContent":"Farthing Purchasing Consortium"}],
+   "AccountTypeCode":[{"CodeContent":"Current"}],
+   "CurrencyCode":[{"CodeContent":"GBP"}],
+   "FinancialInstitutionBranch":[{
+    "ID":[{"IdentifierContent":"10-26-58"}],
+    "Name":[{"TextContent":"Open Bank Ltd, Bridgstow Branch "}],
+    "FinancialInstitution":[{
+     "ID":[{"IdentifierContent":"10-26-58"}],
+     "Name":[{"TextContent":"Open Bank Ltd"}],
+     "Address":[{
+      "StreetName":[{"TextContent":"City Road"}],
+      "BuildingName":[{"TextContent":"Banking House"}],
+      "BuildingNumber":[{"TextContent":"12"}],
+      "CityName":[{"TextContent":"London"}],
+      "PostalZone":[{"TextContent":"AQ1 6TH"}],
+      "CountrySubentity":[{"TextContent":"London\n"}],
+      "AddressLine":[{
+       "Line":[{"TextContent":"5th Floor"}]
+      }],
+      "Country":[{
+       "IdentificationCode":[{"CodeContent":"GB"}]
+      }]
+     }]
+    }],
+    "Address":[{
+     "StreetName":[{"TextContent":"Busy Street"}],
+     "BuildingName":[{"TextContent":"The Mall"}],
+     "BuildingNumber":[{"TextContent":"152"}],
+     "CityName":[{"TextContent":"Farthing"}],
+     "PostalZone":[{"TextContent":"AA99 1BB"}],
+     "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"West Wing"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }]
+ }],
+ "TransactionConditions":[{
+  "Description":[{"TextContent":"order response required; payment is by BACS or by cheque"}]
+ }],
+ "AllowanceCharge":[{
+  "ChargeIndicator":[{"IndicatorContent":false}],
+  "AllowanceChargeReasonCode":[{"CodeContent":"17"}],
+  "MultiplierFactorNumeric":[{"NumericContent":0.10}],
+  "Amount":[{"AmountContent":10.00,
+   "AmountCurrencyIdentifier":"GBP"}]
+ }],
+ "DestinationCountry":[{
+  "IdentificationCode":[{"CodeContent":"GB"}],
+  "Name":[{"TextContent":"Great Britain"}]
+ }],
+ "TaxTotal":[{
+  "TaxAmount":[{"AmountContent":17.50,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "TaxEvidenceIndicator":[{"IndicatorContent":false}],
+  "TaxSubtotal":[{
+   "TaxableAmount":[{"AmountContent":100.00,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TaxAmount":[{"AmountContent":17.50,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TaxCategory":[{
+    "ID":[{"IdentifierContent":"A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }]
+  }]
+ }],
+ "QuotedMonetaryTotal":[{
+  "LineExtensionAmount":[{"AmountContent":100.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "TaxExclusiveAmount":[{"AmountContent":90.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "PayableAmount":[{"AmountContent":107.50,
+   "AmountCurrencyIdentifier":"GBP"}]
+ }],
+ "QuotationLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "Note":[{"TextContent":"sample"}],
+  "LineItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "Quantity":[{"QuantityContent":100,
+    "QuantityUnitCode":"KGM"}],
+   "LineExtensionAmount":[{"AmountContent":100.00,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TotalTaxAmount":[{"AmountContent":17.50,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "Price":[{
+    "PriceAmount":[{"AmountContent":100.00,
+     "AmountCurrencyIdentifier":"GBP"}],
+    "BaseQuantity":[{"QuantityContent":1,
+     "QuantityUnitCode":"KGM"}]
+   }],
+   "Item":[{
+    "Description":[{"TextContent":"Acme beeswax"}],
+    "Name":[{"TextContent":"beeswax"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"6578489"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"17589683"}]
+    }]
+   }]
+  }]
+ }]
+}]}

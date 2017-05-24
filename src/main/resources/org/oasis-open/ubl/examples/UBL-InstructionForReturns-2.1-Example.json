@@ -1,0 +1,136 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:InstructionForReturns-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "InstructionForReturns":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"AB011"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2010-04-10"}],
+ "Note":[{"TextContent":"Instruction to return goods that are badly sent to you."}],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Arancio Forniture spa"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Rossi"}],
+    "Telephone":[{"TextContent":"0039 051 23000000"}],
+    "Telefax":[{"TextContent":"0039 051 23000023"}],
+    "ElectronicMail":[{"TextContent":"rossi@arancioforniture.it"}]
+   }]
+  }]
+ }],
+ "RetailerCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Beta Shop"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Emilia"}],
+    "BuildingNumber":[{"TextContent":"1"}],
+    "CityName":[{"TextContent":"Modena"}],
+    "PostalZone":[{"TextContent":"41121"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Delta"}],
+    "Telephone":[{"TextContent":"0039 059 33000000"}],
+    "Telefax":[{"TextContent":"0039 059 33000055"}],
+    "ElectronicMail":[{"TextContent":"delta@betashop.it"}]
+   }]
+  }]
+ }],
+ "ManufacturerParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"AZ Outsourcing srl"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Via Bolognese"}],
+   "BuildingNumber":[{"TextContent":"199"}],
+   "CityName":[{"TextContent":"Bologna"}],
+   "PostalZone":[{"TextContent":"40129"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Verdi"}],
+   "Telephone":[{"TextContent":"0039 051 25400000"}],
+   "Telefax":[{"TextContent":"0039 051 25400023"}],
+   "ElectronicMail":[{"TextContent":"verdi@azoutsourcing.it"}]
+  }]
+ }],
+ "Shipment":[{
+  "ID":[{"IdentifierContent":"51022"}],
+  "Consignment":[{
+   "ID":[{"IdentifierContent":"510"}]
+  }],
+  "Delivery":[{
+   "DeliveryAddress":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Despatch":[{
+    "DespatchAddress":[{
+     "StreetName":[{"TextContent":"Via Emilia"}],
+     "BuildingNumber":[{"TextContent":"1"}],
+     "CityName":[{"TextContent":"Modena"}],
+     "PostalZone":[{"TextContent":"41121"}],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"IT"}],
+      "Name":[{"TextContent":"Italy"}]
+     }]
+    }]
+   }]
+  }]
+ }],
+ "InstructionForReturnsLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "Quantity":[{"QuantityContent":20,
+   "QuantityUnitCode":"NAR"}],
+  "Item":[{
+   "Description":[{"TextContent":"Denim Jeans Jacket"}],
+   "Name":[{"TextContent":"Jeans Jacket man"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"AA109"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"YX401"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"2"}],
+  "Quantity":[{"QuantityContent":5,
+   "QuantityUnitCode":"NAR"}],
+  "Item":[{
+   "Description":[{"TextContent":"Leather Jacket"}],
+   "Name":[{"TextContent":"Leather Jacket man"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"AA128"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"YX233"}]
+   }]
+  }]
+ }]
+}]}

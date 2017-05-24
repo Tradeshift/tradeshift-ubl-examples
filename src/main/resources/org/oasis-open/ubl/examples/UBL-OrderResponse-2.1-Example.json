@@ -1,0 +1,69 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:OrderResponse-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "OrderResponse":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "CustomizationID":[{"IdentifierContent":"urn:www.cenbii.eu:transaction:biicoretrdmXYZ:ver1.0"}],
+ "ProfileID":[{"IdentifierContent":"urn:www.cenbii.eu:profile:BIIXYZ:ver1.0",
+  "IdentificationSchemeAgencyIdentifier":"BII",
+  "IdentificationSchemeIdentifier":"Profile"}],
+ "ID":[{"IdentifierContent":"7"}],
+ "IssueDate":[{"DateContent":"2010-01-21"}],
+ "IssueTime":[{"TimeContent":"12:30:00"}],
+ "Note":[{"TextContent":"Information text for the whole order response"}],
+ "DocumentCurrencyCode":[{"CodeContent":"SEK"}],
+ "OrderReference":[{
+  "ID":[{"IdentifierContent":"34"}]
+ }],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"7302347231111",
+    "IdentificationSchemeAgencyIdentifier":"9",
+    "IdentificationSchemeIdentifier":"GLN"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"SellerPartyID123"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Moderna Produkter AB"}]
+   }]
+  }]
+ }],
+ "BuyerCustomerParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"7300072311115",
+    "IdentificationSchemeAgencyIdentifier":"9",
+    "IdentificationSchemeIdentifier":"GLN"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"7300070011115",
+     "IdentificationSchemeAgencyIdentifier":"9",
+     "IdentificationSchemeIdentifier":"GLN"}]
+   },{
+    "ID":[{"IdentifierContent":"PartyID123"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Johnssons byggvaror"}]
+   }]
+  }]
+ }],
+ "OrderLine":[{
+  "LineItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "LineStatusCode":[{"CodeContent":"NoStatus",
+    "CodeListAgencyIdentifier":"UBL",
+    "CodeListNameText":"Line Status"}],
+   "Item":[{
+    "Description":[{"TextContent":"Red paint"}]
+   }]
+  }]
+ },{
+  "LineItem":[{
+   "ID":[{"IdentifierContent":"2"}],
+   "LineStatusCode":[{"CodeContent":"Disputed",
+    "CodeListAgencyIdentifier":"UBL",
+    "CodeListNameText":"Line Status"}],
+   "Item":[{
+    "Description":[{"TextContent":"Very good pencils for red paint."}]
+   }]
+  }]
+ }]
+}]}
