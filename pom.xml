@@ -4,7 +4,7 @@
   <groupId>com.tradeshift</groupId>
   <artifactId>tradeshift-ubl-examples</artifactId>
   <packaging>bundle</packaging>
-  <version>2.1.0-SNAPSHOT</version>
+  <version>2.1.0</version>
   <name>OASIS Universal Business Language examples</name>
   <url>http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html</url>
   <description>
