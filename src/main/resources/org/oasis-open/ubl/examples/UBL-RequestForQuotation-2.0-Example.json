@@ -1,0 +1,145 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:RequestForQuotation-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "RequestForQuotation":[{
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:RequestForQuotation-2.0:sbs-1.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-request-for-quotation-draft"}],
+ "ID":[{"IdentifierContent":"G867B"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "UUID":[{"IdentifierContent":"8D076867-AE6D-439F-8281-5AAFC7F4E3B1"}],
+ "IssueDate":[{"DateContent":"2005-06-19"}],
+ "IssueTime":[{"TimeContent":"11:32:26.0Z"}],
+ "Note":[{"TextContent":"sample"}],
+ "CatalogueDocumentReference":[{
+  "ID":[{"IdentifierContent":"2005-9A"}],
+  "IssueDate":[{"DateContent":"2005-11-03"}]
+ }],
+ "OriginatorCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"The Terminus"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+    "CompanyID":[{"IdentifierContent":"12356478"}],
+    "ExemptionReason":[{"TextContent":"Local Authority"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"S Massiah"}],
+    "Telephone":[{"TextContent":"0127 98876545"}],
+    "Telefax":[{"TextContent":"0127 98876546"}],
+    "ElectronicMail":[{"TextContent":"smassiah@the-email.co.uk"}]
+   }]
+  }]
+ }],
+ "SellerSupplierParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"CO001"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Busy Street"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Farthing"}],
+    "PostalZone":[{"TextContent":"AA99 1BB"}],
+    "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"The Roundabout"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+    "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+    "ExemptionReason":[{"TextContent":"N/A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":"0158 1233714"}],
+    "Telefax":[{"TextContent":"0158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+   }]
+  }]
+ }],
+ "Delivery":[{
+  "DeliveryAddress":[{
+   "StreetName":[{"TextContent":"Avon Way"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Bridgtow"}],
+   "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+   "CountrySubentity":[{"TextContent":"Avon"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"3rd Floor, Room 5"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }],
+  "RequestedDeliveryPeriod":[{
+   "StartDate":[{"DateContent":"2005-06-29"}],
+   "StartTime":[{"TimeContent":"09:30:47.0Z"}],
+   "EndDate":[{"DateContent":"2005-06-29"}],
+   "EndTime":[{"TimeContent":"09:30:47.0Z"}]
+  }]
+ }],
+ "DeliveryTerms":[{
+  "SpecialTerms":[{"TextContent":"1% deduction for late delivery as per contract"}]
+ }],
+ "DestinationCountry":[{
+  "IdentificationCode":[{"CodeContent":"GB"}],
+  "Name":[{"TextContent":"Great Britain"}]
+ }],
+ "Contract":[{
+  "ContractDocumentReference":[{
+   "ID":[{"IdentifierContent":"GHJ76849"}],
+   "IssueDate":[{"DateContent":"2002-08-13"}]
+  }]
+ }],
+ "RequestForQuotationLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "Note":[{"TextContent":"sample"}],
+  "LineItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "Quantity":[{"QuantityContent":100,
+    "QuantityUnitCode":"KGM"}],
+   "Item":[{
+    "Description":[{"TextContent":"Acme beeswax"}],
+    "Name":[{"TextContent":"beeswax"}],
+    "BuyersItemIdentification":[{
+     "ID":[{"IdentifierContent":"6578489"}]
+    }],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"17589683"}]
+    }]
+   }]
+  }]
+ }]
+}]}

@@ -1,0 +1,106 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:OrderChange-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "OrderChange":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "CustomizationID":[{"IdentifierContent":"urn:www.cenbii.eu:transaction:biicoretrdmXYZ:ver1.0"}],
+ "ProfileID":[{"IdentifierContent":"urn:www.cenbii.eu:profile:BIIXYZ:ver1.0",
+  "IdentificationSchemeAgencyIdentifier":"BII",
+  "IdentificationSchemeIdentifier":"Profile"}],
+ "ID":[{"IdentifierContent":"7"}],
+ "IssueDate":[{"DateContent":"2010-01-21"}],
+ "IssueTime":[{"TimeContent":"12:30:00"}],
+ "SequenceNumberID":[{"IdentifierContent":"1"}],
+ "Note":[{"TextContent":"Information text for the whole order change"}],
+ "OrderReference":[{
+  "ID":[{"IdentifierContent":"34"}]
+ }],
+ "BuyerCustomerParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"7300072311115",
+    "IdentificationSchemeAgencyIdentifier":"9",
+    "IdentificationSchemeIdentifier":"GLN"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"7300070011115",
+     "IdentificationSchemeAgencyIdentifier":"9",
+     "IdentificationSchemeIdentifier":"GLN"}]
+   },{
+    "ID":[{"IdentifierContent":"PartyID123"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Johnssons byggvaror"}]
+   }]
+  }]
+ }],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"7302347231111",
+    "IdentificationSchemeAgencyIdentifier":"9",
+    "IdentificationSchemeIdentifier":"GLN"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"SellerPartyID123"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Moderna Produkter AB"}]
+   }]
+  }]
+ }],
+ "OrderLine":[{
+  "Note":[{"TextContent":"Freetext note on line 1"}],
+  "LineItem":[{
+   "ID":[{"IdentifierContent":"1"}],
+   "LineStatusCode":[{"CodeContent":"Revised",
+    "CodeListAgencyIdentifier":"UBL",
+    "CodeListNameText":"Line Status"}],
+   "Quantity":[{"QuantityContent":240,
+    "QuantityUnitCode":"LTR"}],
+   "LineExtensionAmount":[{"AmountContent":12000,
+    "AmountCurrencyIdentifier":"SEK"}],
+   "TotalTaxAmount":[{"AmountContent":20,
+    "AmountCurrencyIdentifier":"SEK"}],
+   "PartialDeliveryIndicator":[{"IndicatorContent":false}],
+   "AccountingCostCode":[{"CodeContent":"ProjectID123"}],
+   "Delivery":[{
+    "RequestedDeliveryPeriod":[{
+     "StartDate":[{"DateContent":"2010-02-10"}],
+     "EndDate":[{"DateContent":"2010-02-25"}]
+    }]
+   }],
+   "OriginatorParty":[{
+    "PartyIdentification":[{
+     "ID":[{"IdentifierContent":"EmployeeXXX",
+      "IdentificationSchemeAgencyIdentifier":"ZZZ",
+      "IdentificationSchemeIdentifier":"ZZZ"}]
+    }],
+    "PartyName":[{
+     "Name":[{"TextContent":"Josef K."}]
+    }]
+   }],
+   "Price":[{
+    "PriceAmount":[{"AmountContent":50,
+     "AmountCurrencyIdentifier":"SEK"}],
+    "BaseQuantity":[{"QuantityContent":1,
+     "QuantityUnitCode":"LTR"}]
+   }],
+   "Item":[{
+    "Description":[{"TextContent":"Red paint"}],
+    "Name":[{"TextContent":"Falu Rödfärg"}],
+    "SellersItemIdentification":[{
+     "ID":[{"IdentifierContent":"SItemNo001"}]
+    }],
+    "StandardItemIdentification":[{
+     "ID":[{"IdentifierContent":"1234567890123",
+      "IdentificationSchemeAgencyIdentifier":"6",
+      "IdentificationSchemeIdentifier":"GTIN"}]
+    }],
+    "AdditionalItemProperty":[{
+     "Name":[{"TextContent":"Paint type"}],
+     "Value":[{"TextContent":"Acrylic"}]
+    },{
+     "Name":[{"TextContent":"Solvant"}],
+     "Value":[{"TextContent":"Water"}]
+    }]
+   }]
+  }]
+ }]
+}]}

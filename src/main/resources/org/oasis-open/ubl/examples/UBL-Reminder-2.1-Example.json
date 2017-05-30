@@ -1,0 +1,166 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Reminder-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "Reminder":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"12"}],
+ "IssueDate":[{"DateContent":"2010-04-14"}],
+ "AccountingSupplierParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"1234567890123",
+    "IdentificationSchemeIdentifier":"GLN",
+    "IdentificationSchemeAgencyIdentifier":"9"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"Supp123",
+     "IdentificationSchemeIdentifier":"ZZZ"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Salescompany ltd."}]
+   }],
+   "PostalAddress":[{
+    "ID":[{"IdentifierContent":"1231412341324",
+     "IdentificationSchemeIdentifier":"GLN",
+     "IdentificationSchemeAgencyIdentifier":"9"}],
+    "Postbox":[{"TextContent":"5467"}],
+    "StreetName":[{"TextContent":"Main street"}],
+    "AdditionalStreetName":[{"TextContent":"Suite 123"}],
+    "BuildingNumber":[{"TextContent":"1"}],
+    "Department":[{"TextContent":"Revenue department"}],
+    "CityName":[{"TextContent":"Big city"}],
+    "PostalZone":[{"TextContent":"54321"}],
+    "CountrySubentityCode":[{"CodeContent":"RegionA"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"DK",
+      "CodeListIdentifier":"ISO3166-1",
+      "CodeListAgencyIdentifier":"6"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "CompanyID":[{"IdentifierContent":"DK12345",
+     "IdentificationSchemeIdentifier":"DKVAT",
+     "IdentificationSchemeAgencyIdentifier":"ZZZ"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT",
+      "IdentificationSchemeIdentifier":"UN/ECE 5153",
+      "IdentificationSchemeAgencyIdentifier":"6"}]
+    }]
+   }],
+   "PartyLegalEntity":[{
+    "RegistrationName":[{"TextContent":"The Sellercompany Incorporated"}],
+    "CompanyID":[{"IdentifierContent":"5402697509",
+     "IdentificationSchemeIdentifier":"CVR",
+     "IdentificationSchemeAgencyIdentifier":"ZZZ"}],
+    "RegistrationAddress":[{
+     "CityName":[{"TextContent":"Big city"}],
+     "CountrySubentity":[{"TextContent":"RegionA"}],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"DK"}]
+     }]
+    }]
+   }],
+   "Contact":[{
+    "Telephone":[{"TextContent":"4621230"}],
+    "Telefax":[{"TextContent":"4621231"}],
+    "ElectronicMail":[{"TextContent":"antonio@salescompany.dk"}]
+   }],
+   "Person":[{
+    "FirstName":[{"TextContent":"Antonio"}],
+    "FamilyName":[{"TextContent":"M"}],
+    "MiddleName":[{"TextContent":"Salemacher"}],
+    "JobTitle":[{"TextContent":"Sales manager"}]
+   }]
+  }]
+ }],
+ "AccountingCustomerParty":[{
+  "Party":[{
+   "EndpointID":[{"IdentifierContent":"1234567987654",
+    "IdentificationSchemeIdentifier":"GLN",
+    "IdentificationSchemeAgencyIdentifier":"9"}],
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"345KS5324",
+     "IdentificationSchemeIdentifier":"ZZZ"}]
+   }],
+   "PartyName":[{
+    "Name":[{"TextContent":"Buyercompany ltd"}]
+   }],
+   "PostalAddress":[{
+    "ID":[{"IdentifierContent":"1238764941386",
+     "IdentificationSchemeIdentifier":"GLN",
+     "IdentificationSchemeAgencyIdentifier":"9"}],
+    "Postbox":[{"TextContent":"123"}],
+    "StreetName":[{"TextContent":"Anystreet"}],
+    "AdditionalStreetName":[{"TextContent":"Back door"}],
+    "BuildingNumber":[{"TextContent":"8"}],
+    "Department":[{"TextContent":"Accounting department"}],
+    "CityName":[{"TextContent":"Anytown"}],
+    "PostalZone":[{"TextContent":"101"}],
+    "CountrySubentity":[{"TextContent":"RegionB"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"BE",
+      "CodeListIdentifier":"ISO3166-1",
+      "CodeListAgencyIdentifier":"6"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "CompanyID":[{"IdentifierContent":"BE54321",
+     "IdentificationSchemeIdentifier":"BEVAT",
+     "IdentificationSchemeAgencyIdentifier":"ZZZ"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT",
+      "IdentificationSchemeIdentifier":"UN/ECE 5153",
+      "IdentificationSchemeAgencyIdentifier":"6"}]
+    }]
+   }],
+   "PartyLegalEntity":[{
+    "RegistrationName":[{"TextContent":"The buyercompany inc."}],
+    "CompanyID":[{"IdentifierContent":"5645342123",
+     "IdentificationSchemeAgencyIdentifier":"ZZZ",
+     "IdentificationSchemeIdentifier":"ZZZ"}],
+    "RegistrationAddress":[{
+     "CityName":[{"TextContent":"Mainplace"}],
+     "CountrySubentity":[{"TextContent":"RegionB"}],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"BE"}]
+     }]
+    }]
+   }],
+   "Contact":[{
+    "Telephone":[{"TextContent":"5121230"}],
+    "Telefax":[{"TextContent":"5121231"}],
+    "ElectronicMail":[{"TextContent":"john@buyercompany.eu"}]
+   }],
+   "Person":[{
+    "FirstName":[{"TextContent":"John"}],
+    "FamilyName":[{"TextContent":"X"}],
+    "MiddleName":[{"TextContent":"Doe"}],
+    "JobTitle":[{"TextContent":"Purchasing manager"}]
+   }]
+  }]
+ }],
+ "LegalMonetaryTotal":[{
+  "LineExtensionAmount":[{"AmountContent":1436.5,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "TaxExclusiveAmount":[{"AmountContent":1436.5,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "TaxInclusiveAmount":[{"AmountContent":1729,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "AllowanceTotalAmount":[{"AmountContent":100,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "ChargeTotalAmount":[{"AmountContent":100,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "PrepaidAmount":[{"AmountContent":1000,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "PayableRoundingAmount":[{"AmountContent":0.30,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "PayableAmount":[{"AmountContent":729,
+   "AmountCurrencyIdentifier":"EUR"}]
+ }],
+ "ReminderLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "BillingReference":[{
+   "InvoiceDocumentReference":[{
+    "ID":[{"IdentifierContent":"TOSL108"}]
+   }]
+  }]
+ }]
+}]}

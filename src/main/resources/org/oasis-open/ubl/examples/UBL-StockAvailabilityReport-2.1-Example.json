@@ -1,0 +1,138 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:StockAvailabilityReport-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "StockAvailabilityReport":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"SA2009"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2010-04-11"}],
+ "Note":[{"TextContent":"Report about quantities of each item which are (or will be) available"}],
+ "InventoryPeriod":[{
+  "StartDate":[{"DateContent":"2010-04-11"}],
+  "StartTime":[{"TimeContent":"08:00:00"}],
+  "EndDate":[{"DateContent":"2011-04-11"}]
+ }],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Arancio Forniture spa"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Rossi"}],
+    "Telephone":[{"TextContent":"0039 051 23000000"}],
+    "Telefax":[{"TextContent":"0039 051 23000023"}],
+    "ElectronicMail":[{"TextContent":"rossi@arancioforniture.it"}]
+   }]
+  }]
+ }],
+ "RetailerCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Beta Shop"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Emilia"}],
+    "BuildingNumber":[{"TextContent":"1"}],
+    "CityName":[{"TextContent":"Modena"}],
+    "PostalZone":[{"TextContent":"41121"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Delta"}],
+    "Telephone":[{"TextContent":"0039 059 33000000"}],
+    "Telefax":[{"TextContent":"0039 059 33000055"}],
+    "ElectronicMail":[{"TextContent":"delta@betashop.it"}]
+   }]
+  }]
+ }],
+ "InventoryReportingParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Beta Shop"}]
+  }],
+  "PostalAddress":[{
+   "Floor":[{"TextContent":"2"}],
+   "Room":[{"TextContent":"309"}],
+   "StreetName":[{"TextContent":"Via Emilia"}],
+   "BuildingNumber":[{"TextContent":"1"}],
+   "CityName":[{"TextContent":"Modena"}],
+   "PostalZone":[{"TextContent":"41121"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Gamma"}],
+   "Telephone":[{"TextContent":"0039 059 33000022"}],
+   "Telefax":[{"TextContent":"0039 059 33000057"}],
+   "ElectronicMail":[{"TextContent":"gamma@betashop.it"}]
+  }]
+ }],
+ "StockAvailabilityReportLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "Quantity":[{"QuantityContent":50,
+   "QuantityUnitCode":"NAR"}],
+  "AvailabilityDate":[{"DateContent":"2010-04-20"}],
+  "AvailabilityStatusCode":[{"CodeContent":"1",
+   "CodeListIdentifier":"7011",
+   "CodeListAgencyNameText":"UN/ECE",
+   "CodeListUniformResourceIdentifier":"http://www.unece.org/trade/untdid/d09b/tred/tred7011.htm"}],
+  "Item":[{
+   "Description":[{"TextContent":"T-shirt"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"TT319"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"ZZ738"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"2"}],
+  "Quantity":[{"QuantityContent":80,
+   "QuantityUnitCode":"NAR"}],
+  "AvailabilityDate":[{"DateContent":"2010-04-11"}],
+  "AvailabilityStatusCode":[{"CodeContent":"2",
+   "CodeListIdentifier":"7011",
+   "CodeListAgencyNameText":"UN/ECE",
+   "CodeListUniformResourceIdentifier":"http://www.unece.org/trade/untdid/d09b/tred/tred7011.htm"}],
+  "Item":[{
+   "Description":[{"TextContent":"jersey"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"TJ043"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"K0058"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"3"}],
+  "Quantity":[{"QuantityContent":0,
+   "QuantityUnitCode":"NAR"}],
+  "AvailabilityStatusCode":[{"CodeContent":"8",
+   "CodeListIdentifier":"7011",
+   "CodeListAgencyNameText":"UN/ECE",
+   "CodeListUniformResourceIdentifier":"http://www.unece.org/trade/untdid/d09b/tred/tred7011.htm"}],
+  "Item":[{
+   "Description":[{"TextContent":"skirt"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"TS893"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"PK009"}]
+   }]
+  }]
+ }]
+}]}

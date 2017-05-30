@@ -1,0 +1,193 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:ExceptionCriteria-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "ExceptionCriteria":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:ExceptionCriteria-2.1:1.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-cpfr-exception-criteria-draft"}],
+ "ID":[{"IdentifierContent":"EC758494"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "UUID":[{"IdentifierContent":"349ABBAE-DF9D-40B4-849F-94C5FF9D1AF4"}],
+ "IssueDate":[{"DateContent":"2009-12-25"}],
+ "Note":[{"TextContent":"sample"}],
+ "ValidityPeriod":[{
+  "StartDate":[{"DateContent":"2010-03-28"}],
+  "EndDate":[{"DateContent":"2010-08-29"}]
+ }],
+ "SenderParty":[{
+  "PartyIdentification":[{
+   "ID":[{"IdentifierContent":"6903148000007"}]
+  }],
+  "PartyName":[{
+   "Name":[{"TextContent":"Consortial"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Busy Street"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Farthing"}],
+   "PostalZone":[{"TextContent":"AA99 1BB"}],
+   "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"The Roundabout"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }],
+  "PartyTaxScheme":[{
+   "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+   "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+   "ExemptionReason":[{"TextContent":"N/A"}],
+   "TaxScheme":[{
+    "ID":[{"IdentifierContent":"VAT"}],
+    "TaxTypeCode":[{"CodeContent":"VAT"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mrs Bouquet"}],
+   "Telephone":[{"TextContent":"0158 1233714"}],
+   "Telefax":[{"TextContent":"0158 1233856"}],
+   "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+  }]
+ }],
+ "ReceiverParty":[{
+  "PartyIdentification":[{
+   "ID":[{"IdentifierContent":"2203148000007"}]
+  }],
+  "PartyName":[{
+   "Name":[{"TextContent":"IYT Corporation"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Avon Way"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Bridgtow"}],
+   "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+   "CountrySubentity":[{"TextContent":"Avon"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"3rd Floor, Room 5"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }],
+  "PartyTaxScheme":[{
+   "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+   "CompanyID":[{"IdentifierContent":"12356478"}],
+   "ExemptionReason":[{"TextContent":"Local Authority"}],
+   "TaxScheme":[{
+    "ID":[{"IdentifierContent":"UK VAT"}],
+    "TaxTypeCode":[{"CodeContent":"VAT"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Fred Churchill"}],
+   "Telephone":[{"TextContent":"0127 2653214"}],
+   "Telefax":[{"TextContent":"0127 2653215"}],
+   "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+  }]
+ }],
+ "BuyerCustomerParty":[{
+  "Party":[{
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"2203148000007"}]
+   }]
+  }]
+ }],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"6903148000007"}]
+   }]
+  }]
+ }],
+ "ExceptionCriteriaLine":[{
+  "ID":[{"IdentifierContent":"exceptionCriteriaLineID"}],
+  "ThresholdValueComparisonCode":[{"CodeContent":"EXCEEDS_EXCEPTION_VALUE"}],
+  "ThresholdQuantity":[{"QuantityContent":120000,
+   "QuantityUnitCode":"KGM"}],
+  "ExceptionStatusCode":[{"CodeContent":"NEW"}],
+  "CollaborationPriorityCode":[{"CodeContent":"HIGH"}],
+  "SupplyChainActivityTypeCode":[{"CodeContent":"SALES"}],
+  "EffectivePeriod":[{
+   "StartDate":[{"DateContent":"2010-03-28"}],
+   "EndDate":[{"DateContent":"2010-08-29"}]
+  }],
+  "SupplyItem":[{
+   "Description":[{"TextContent":"Acme beeswax"}],
+   "Name":[{"TextContent":"beeswax"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"6578489"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"17589683"}]
+   }],
+   "StandardItemIdentification":[{
+    "ID":[{"IdentifierContent":"00123450000584"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"exceptionCriteriaLineID"}],
+  "ThresholdValueComparisonCode":[{"CodeContent":"EXCEEDS_EXCEPTION_VALUE"}],
+  "ThresholdQuantity":[{"QuantityContent":120000,
+   "QuantityUnitCode":"KGM"}],
+  "ExceptionStatusCode":[{"CodeContent":"NEW"}],
+  "CollaborationPriorityCode":[{"CodeContent":"HIGH"}],
+  "PerformanceMetricTypeCode":[{"CodeContent":"SUPPLY"}],
+  "EffectivePeriod":[{
+   "StartDate":[{"DateContent":"2010-03-28"}],
+   "EndDate":[{"DateContent":"2010-05-29"}]
+  }],
+  "SupplyItem":[{
+   "StandardItemIdentification":[{
+    "ID":[{"IdentifierContent":"00123450000581"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"exceptionCriteriaLineID"}],
+  "ThresholdValueComparisonCode":[{"CodeContent":"EXCEEDS_EXCEPTION_VALUE"}],
+  "ThresholdQuantity":[{"QuantityContent":120000,
+   "QuantityUnitCode":"KGM"}],
+  "ExceptionStatusCode":[{"CodeContent":"NEW"}],
+  "CollaborationPriorityCode":[{"CodeContent":"HIGH"}],
+  "EffectivePeriod":[{
+   "StartDate":[{"DateContent":"2010-04-28"}],
+   "EndDate":[{"DateContent":"2010-06-29"}]
+  }],
+  "SupplyItem":[{
+   "StandardItemIdentification":[{
+    "ID":[{"IdentifierContent":"00123450000582"}]
+   }]
+  }],
+  "ForecastExceptionCriterionLine":[{
+   "ForecastPurposeCode":[{"CodeContent":"SALES_FORECAST"}],
+   "ForecastTypeCode":[{"CodeContent":"BASE"}],
+   "ComparisonDataSourceCode":[{"CodeContent":"SELLER"}],
+   "DataSourceCode":[{"CodeContent":"BUYER"}],
+   "TimeDeltaDaysQuantity":[{"QuantityContent":20}]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"exceptionCriteriaLineID"}],
+  "ThresholdValueComparisonCode":[{"CodeContent":"EXCEEDS_EXCEPTION_VALUE"}],
+  "ThresholdQuantity":[{"QuantityContent":120000,
+   "QuantityUnitCode":"KGM"}],
+  "ExceptionStatusCode":[{"CodeContent":"NEW"}],
+  "CollaborationPriorityCode":[{"CodeContent":"HIGH"}],
+  "EffectivePeriod":[{
+   "StartDate":[{"DateContent":"2010-04-28"}],
+   "EndDate":[{"DateContent":"2010-06-29"}]
+  }],
+  "SupplyItem":[{
+   "StandardItemIdentification":[{
+    "ID":[{"IdentifierContent":"00123450000580"}]
+   }]
+  }],
+  "ForecastExceptionCriterionLine":[{
+   "ForecastPurposeCode":[{"CodeContent":"SALES_FORECAST"}],
+   "ForecastTypeCode":[{"CodeContent":"BASE"}],
+   "DataSourceCode":[{"CodeContent":"BUYER"}],
+   "TimeDeltaDaysQuantity":[{"QuantityContent":20}]
+  }]
+ }]
+}]}

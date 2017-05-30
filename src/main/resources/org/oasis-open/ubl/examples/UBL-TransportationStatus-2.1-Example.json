@@ -1,0 +1,28 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:TransportationStatus-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "TransportationStatus":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"TS_1"}],
+ "IssueDate":[{"DateContent":"2011-10-06"}],
+ "IssueTime":[{"TimeContent":"09:29:30+01:00"}],
+ "TransportationStatusTypeCode":[{"CodeContent":"All deviations"}],
+ "TransportExecutionStatusCode":[{"CodeContent":"35"}],
+ "Consignment":[{
+  "ID":[{"IdentifierContent":"CON_1"}],
+  "TransportHandlingUnit":[{
+   "ID":[{"IdentifierContent":"CON_THU_1"}],
+   "TransportEquipment":[{
+    "ID":[{"IdentifierContent":"CON_TE_1"}]
+   }],
+   "Status":[{
+    "ConditionCode":[{"CodeContent":"4"}],
+    "StatusReasonCode":[{"CodeContent":"23"}],
+    "StatusReason":[{"TextContent":"Reefer container lost power - cargo of fish destroyed"}]
+   }]
+  }]
+ }],
+ "TransportExecutionPlanDocumentReference":[{
+  "ID":[{"IdentifierContent":"TEP_1"}]
+ }]
+}]}

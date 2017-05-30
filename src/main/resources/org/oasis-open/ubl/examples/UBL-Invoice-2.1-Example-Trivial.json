@@ -1,0 +1,37 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "Invoice":[{
+ "ID":[{"IdentifierContent":"123"}],
+ "IssueDate":[{"DateContent":"2011-09-22"}],
+ "InvoicePeriod":[{
+  "StartDate":[{"DateContent":"2011-08-01"}],
+  "EndDate":[{"DateContent":"2011-08-31"}]
+ }],
+ "AccountingSupplierParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Custom Cotter Pins"}]
+   }]
+  }]
+ }],
+ "AccountingCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"North American Veeblefetzer"}]
+   }]
+  }]
+ }],
+ "LegalMonetaryTotal":[{
+  "PayableAmount":[{"AmountContent":100.00,
+   "AmountCurrencyIdentifier":"CAD"}]
+ }],
+ "InvoiceLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "LineExtensionAmount":[{"AmountContent":100.00,
+   "AmountCurrencyIdentifier":"CAD"}],
+  "Item":[{
+   "Description":[{"TextContent":"Cotter pin, MIL-SPEC"}]
+  }]
+ }]
+}]}

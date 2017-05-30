@@ -1,0 +1,341 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "_E":"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+ "Invoice":[{
+ "UBLExtensions":[{
+  "UBLExtension":[{
+   "ExtensionURI":[{"IdentifierContent": "dummy1"}],
+   "ExtensionContent":[{
+    "AnExtension":[{"TextContent": "\n       "}]
+   }]
+  },{
+   "ExtensionURI":[{"IdentifierContent": "dummy2"}],
+   "ExtensionContent":[{
+    "AnotherExtension":[{"TextContent": "\n       "}]
+   }]
+  },{
+   "ExtensionContent":[{
+    "UBLDocumentSignatures":[{
+     "SignatureInformation":[{
+      "Signature":[{
+       "SignedInfo":[{
+        "CanonicalizationMethod":[{"TextContent": ""}],
+        "SignatureMethod":[{"TextContent": ""}],
+        "Reference":[{
+         "Transforms":[{
+          "Transform":[{
+           "XPath":[{"TextContent": "\n            count(ancestor-or-self::sig:UBLDocumentSignatures |\n                  here()/ancestor::sig:UBLDocumentSignatures[1]) >\n            count(ancestor-or-self::sig:UBLDocumentSignatures)\n          "}]
+          }]
+         }],
+         "DigestMethod":[{"TextContent": ""}],
+         "DigestValue":[{"TextContent": "d7OYkPHx+k+Qg+tBX2RfdzaBuYs="}]
+        },{
+         "DigestMethod":[{"TextContent": ""}],
+         "DigestValue":[{"TextContent": "rcWlUoFmv2beSz8h5BKpxBv/IWQ="}]
+        }]
+       }],
+       "SignatureValue":[{"TextContent": "nUGjDSgnAizCE4n8VsJhM1DljVf+lmQqKcXiuWkM2xUaRFoni4VUiku7BzC4I8w2\nNbDjhusexvxIzN5IZf8uY4gXn4OrNuWsYZT/U73qj0T8N32jsHpeyXFMsuUq5kgG\nm4MqK4QcI8/VnSYqfGOF/wCJi0GDM/sccLbB7tKgX8Y="}],
+       "KeyInfo":[{
+        "KeyValue":[{
+         "RSAKeyValue":[{
+          "Modulus":[{"TextContent": "\nuXEmg0yTZN1Yf7IuwDcf+MhHjILcPtFXVW3FRFpy5ymWDDmoOddPJrG3S6zHcCbu\nkdqJR+fIHhpGauMifTbC4k9F0UNgT0DSzxoOkVMFwv/pREK28lvnDZD1rGnS9GKt\ncyOMVbGe5BSl49iBI5xhpUtmRYxVR/RAxSUmCrfZFoM=\n"}],
+          "Exponent":[{"TextContent": "\nAQAB\n"}]
+         }]
+        }],
+        "X509Data":[{
+         "X509Certificate":[{"TextContent": "MIICcTCCAdoCCQDzGe/d5rwBKzANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJV\nUzEWMBQGA1UECAwNTWFzc2FjaHVzZXR0czETMBEGA1UEBwwKQnVybGluZ3RvbjEO\nMAwGA1UECgwFT0FTSVMxIDAeBgNVBAsMF1VCTCBUZWNobmljYWwgQ29tbWl0dGVl\nMQ8wDQYDVQQDDAZVQkwgVEMwHhcNMTMwMjE1MTg1OTQ2WhcNMTMwMzE3MTg1OTQ2\nWjB9MQswCQYDVQQGEwJVUzEWMBQGA1UECAwNTWFzc2FjaHVzZXR0czETMBEGA1UE\nBwwKQnVybGluZ3RvbjEOMAwGA1UECgwFT0FTSVMxIDAeBgNVBAsMF1VCTCBUZWNo\nbmljYWwgQ29tbWl0dGVlMQ8wDQYDVQQDDAZVQkwgVEMwgZ8wDQYJKoZIhvcNAQEB\nBQADgY0AMIGJAoGBALlxJoNMk2TdWH+yLsA3H/jIR4yC3D7RV1VtxURacucplgw5\nqDnXTyaxt0usx3Am7pHaiUfnyB4aRmrjIn02wuJPRdFDYE9A0s8aDpFTBcL/6URC\ntvJb5w2Q9axp0vRirXMjjFWxnuQUpePYgSOcYaVLZkWMVUf0QMUlJgq32RaDAgMB\nAAEwDQYJKoZIhvcNAQEFBQADgYEAVtqeUFJQa64pqCYJAxflCGdOKFBX2p8LCo3K\neupnQC9UvLdOxuS8fAjzo40FQG687/7NGcZ30ysVjy/s3XyqxDFLln601vI470i9\n6Gip3cBF8WHB5lUnvaT9dNEYFDBBR22glEnY9SA8y8EbbO+Cy8hIQEzULoVOkr/a\nJfeH5w4="}],
+         "X509SubjectName":[{"NameContent": "CN=UBL TC,OU=UBL Technical Committee,O=OASIS,L=Burlington,ST=Massachusetts,C=US"}],
+         "X509IssuerSerial":[{
+          "X509IssuerName":[{"NameContent": "CN=UBL TC,OU=UBL Technical Committee,O=OASIS,L=Burlington,ST=Massachusetts,C=US"}],
+          "X509SerialNumber":[{"TextContent": "17517295961972146475"}]
+         }]
+        }]
+       }],
+       "Object":[{
+        "QualifyingProperties":[{
+         "SignedProperties":[{
+          "SignedSignatureProperties":[{
+           "SigningTime":[{"TextContent": "2010-11-26T18:00:00Z"}]
+          }]
+         }],
+         "UnsignedProperties":[{
+          "UnsignedSignatureProperties":[{
+           "SignatureTimeStamp":[{
+            "XMLTimeStamp":[{"TextContent": "2010-11-26T18:00:00Z"}]
+           }]
+          }]
+         }]
+        }]
+       }]
+      }]
+     }]
+    }]
+   }]
+  }]
+ }],
+ "UBLVersionID":[{"IdentifierContent":"2.0"}],
+ "CustomizationID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:xpath:Invoice-2.0:sbs-1.0-draft"}],
+ "ProfileID":[{"IdentifierContent":"bpid:urn:oasis:names:draft:bpss:ubl-2-sbs-invoice-notification-draft"}],
+ "ID":[{"IdentifierContent":"A00095678"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "UUID":[{"IdentifierContent":"849FBBCE-E081-40B4-906C-94C5FF9D1AC3"}],
+ "IssueDate":[{"DateContent":"2005-06-21"}],
+ "InvoiceTypeCode":[{"CodeContent":"SalesInvoice"}],
+ "Note":[{"TextContent":"sample"}],
+ "TaxPointDate":[{"DateContent":"2005-06-21"}],
+ "OrderReference":[{
+  "ID":[{"IdentifierContent":"AEG012345"}],
+  "SalesOrderID":[{"IdentifierContent":"CON0095678"}],
+  "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7CCAC7F4E3B1"}],
+  "IssueDate":[{"DateContent":"2005-06-20"}]
+ }],
+ "Signature":[{
+  "ID":[{"IdentifierContent":"urn:oasis:names:specification:ubl:signature:Invoice"}],
+  "SignatureMethod":[{"TextContent":"urn:oasis:names:specification:ubl:dsig:enveloped"}],
+  "SignatoryParty":[{
+   "PartyIdentification":[{
+    "ID":[{"IdentifierContent":"MyParty"}]
+   }]
+  }]
+ }],
+ "AccountingSupplierParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"CO001"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Consortial"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Busy Street"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Farthing"}],
+    "PostalZone":[{"TextContent":"AA99 1BB"}],
+    "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"The Roundabout"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Farthing Purchasing Consortium"}],
+    "CompanyID":[{"IdentifierContent":"175 269 2355"}],
+    "ExemptionReason":[{"TextContent":"N/A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mrs Bouquet"}],
+    "Telephone":[{"TextContent":"0158 1233714"}],
+    "Telefax":[{"TextContent":"0158 1233856"}],
+    "ElectronicMail":[{"TextContent":"bouquet@fpconsortial.co.uk"}]
+   }]
+  }]
+ }],
+ "AccountingCustomerParty":[{
+  "CustomerAssignedAccountID":[{"IdentifierContent":"XFB01"}],
+  "SupplierAssignedAccountID":[{"IdentifierContent":"GT00978567"}],
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"IYT Corporation"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Avon Way"}],
+    "BuildingName":[{"TextContent":"Thereabouts"}],
+    "BuildingNumber":[{"TextContent":"56A"}],
+    "CityName":[{"TextContent":"Bridgtow"}],
+    "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+    "CountrySubentity":[{"TextContent":"Avon"}],
+    "AddressLine":[{
+     "Line":[{"TextContent":"3rd Floor, Room 5"}]
+    }],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"GB"}]
+    }]
+   }],
+   "PartyTaxScheme":[{
+    "RegistrationName":[{"TextContent":"Bridgtow District Council"}],
+    "CompanyID":[{"IdentifierContent":"12356478"}],
+    "ExemptionReason":[{"TextContent":"Local Authority"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Fred Churchill"}],
+    "Telephone":[{"TextContent":"0127 2653214"}],
+    "Telefax":[{"TextContent":"0127 2653215"}],
+    "ElectronicMail":[{"TextContent":"fred@iytcorporation.gov.uk"}]
+   }]
+  }]
+ }],
+ "Delivery":[{
+  "ActualDeliveryDate":[{"DateContent":"2005-06-20"}],
+  "ActualDeliveryTime":[{"TimeContent":"11:30:00.0Z"}],
+  "DeliveryAddress":[{
+   "StreetName":[{"TextContent":"Avon Way"}],
+   "BuildingName":[{"TextContent":"Thereabouts"}],
+   "BuildingNumber":[{"TextContent":"56A"}],
+   "CityName":[{"TextContent":"Bridgtow"}],
+   "PostalZone":[{"TextContent":"ZZ99 1ZZ"}],
+   "CountrySubentity":[{"TextContent":"Avon"}],
+   "AddressLine":[{
+    "Line":[{"TextContent":"3rd Floor, Room 5"}]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }]
+ }],
+ "PaymentMeans":[{
+  "PaymentMeansCode":[{"CodeContent":"20"}],
+  "PaymentDueDate":[{"DateContent":"2005-07-21"}],
+  "PayeeFinancialAccount":[{
+   "ID":[{"IdentifierContent":"12345678"}],
+   "Name":[{"TextContent":"Farthing Purchasing Consortium"}],
+   "AccountTypeCode":[{"CodeContent":"Current"}],
+   "CurrencyCode":[{"CodeContent":"GBP"}],
+   "FinancialInstitutionBranch":[{
+    "ID":[{"IdentifierContent":"10-26-58"}],
+    "Name":[{"TextContent":"Open Bank Ltd, Bridgstow Branch "}],
+    "FinancialInstitution":[{
+     "ID":[{"IdentifierContent":"10-26-58"}],
+     "Name":[{"TextContent":"Open Bank Ltd"}],
+     "Address":[{
+      "StreetName":[{"TextContent":"City Road"}],
+      "BuildingName":[{"TextContent":"Banking House"}],
+      "BuildingNumber":[{"TextContent":"12"}],
+      "CityName":[{"TextContent":"London"}],
+      "PostalZone":[{"TextContent":"AQ1 6TH"}],
+      "CountrySubentity":[{"TextContent":"London\n"}],
+      "AddressLine":[{
+       "Line":[{"TextContent":"5th Floor"}]
+      }],
+      "Country":[{
+       "IdentificationCode":[{"CodeContent":"GB"}]
+      }]
+     }]
+    }],
+    "Address":[{
+     "StreetName":[{"TextContent":"Busy Street"}],
+     "BuildingName":[{"TextContent":"The Mall"}],
+     "BuildingNumber":[{"TextContent":"152"}],
+     "CityName":[{"TextContent":"Farthing"}],
+     "PostalZone":[{"TextContent":"AA99 1BB"}],
+     "CountrySubentity":[{"TextContent":"Heremouthshire"}],
+     "AddressLine":[{
+      "Line":[{"TextContent":"West Wing"}]
+     }],
+     "Country":[{
+      "IdentificationCode":[{"CodeContent":"GB"}]
+     }]
+    }]
+   }],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"GB"}]
+   }]
+  }]
+ }],
+ "PaymentTerms":[{
+  "Note":[{"TextContent":"Payable within 1 calendar month from the invoice date"}]
+ }],
+ "AllowanceCharge":[{
+  "ChargeIndicator":[{"IndicatorContent":false}],
+  "AllowanceChargeReasonCode":[{"CodeContent":"17"}],
+  "MultiplierFactorNumeric":[{"NumericContent":0.10}],
+  "Amount":[{"AmountContent":10.00,
+   "AmountCurrencyIdentifier":"GBP"}]
+ }],
+ "TaxTotal":[{
+  "TaxAmount":[{"AmountContent":17.50,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "TaxEvidenceIndicator":[{"IndicatorContent":true}],
+  "TaxSubtotal":[{
+   "TaxableAmount":[{"AmountContent":100.00,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TaxAmount":[{"AmountContent":17.50,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TaxCategory":[{
+    "ID":[{"IdentifierContent":"A"}],
+    "TaxScheme":[{
+     "ID":[{"IdentifierContent":"UK VAT"}],
+     "TaxTypeCode":[{"CodeContent":"VAT"}]
+    }]
+   }]
+  }]
+ }],
+ "LegalMonetaryTotal":[{
+  "LineExtensionAmount":[{"AmountContent":100.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "TaxExclusiveAmount":[{"AmountContent":90.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "AllowanceTotalAmount":[{"AmountContent":10.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "PayableAmount":[{"AmountContent":107.50,
+   "AmountCurrencyIdentifier":"GBP"}]
+ }],
+ "InvoiceLine":[{
+  "ID":[{"IdentifierContent":"A"}],
+  "InvoicedQuantity":[{"QuantityContent":100,
+   "QuantityUnitCode":"KGM"}],
+  "LineExtensionAmount":[{"AmountContent":100.00,
+   "AmountCurrencyIdentifier":"GBP"}],
+  "OrderLineReference":[{
+   "LineID":[{"IdentifierContent":"1"}],
+   "SalesOrderLineID":[{"IdentifierContent":"A"}],
+   "LineStatusCode":[{"CodeContent":"NoStatus"}],
+   "OrderReference":[{
+    "ID":[{"IdentifierContent":"AEG012345"}],
+    "SalesOrderID":[{"IdentifierContent":"CON0095678"}],
+    "UUID":[{"IdentifierContent":"6E09886B-DC6E-439F-82D1-7CCAC7F4E3B1"}],
+    "IssueDate":[{"DateContent":"2005-06-20"}]
+   }]
+  }],
+  "TaxTotal":[{
+   "TaxAmount":[{"AmountContent":17.50,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "TaxEvidenceIndicator":[{"IndicatorContent":true}],
+   "TaxSubtotal":[{
+    "TaxableAmount":[{"AmountContent":100.00,
+     "AmountCurrencyIdentifier":"GBP"}],
+    "TaxAmount":[{"AmountContent":17.50,
+     "AmountCurrencyIdentifier":"GBP"}],
+    "TaxCategory":[{
+     "ID":[{"IdentifierContent":"A"}],
+     "Percent":[{"NumericContent":17.5}],
+     "TaxScheme":[{
+      "ID":[{"IdentifierContent":"UK VAT"}],
+      "TaxTypeCode":[{"CodeContent":"VAT"}]
+     }]
+    }]
+   }]
+  }],
+  "Item":[{
+   "Description":[{"TextContent":"Acme beeswax"}],
+   "Name":[{"TextContent":"beeswax"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"6578489"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"17589683"}]
+   }],
+   "ItemInstance":[{
+    "LotIdentification":[{
+     "LotNumberID":[{"IdentifierContent":"546378239"}],
+     "ExpiryDate":[{"DateContent":"2010-01-01"}]
+    }]
+   }]
+  }],
+  "Price":[{
+   "PriceAmount":[{"AmountContent":1.00,
+    "AmountCurrencyIdentifier":"GBP"}],
+   "BaseQuantity":[{"QuantityContent":1,
+    "QuantityUnitCode":"KGM"}]
+  }]
+ }]
+}]}

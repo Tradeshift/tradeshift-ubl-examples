@@ -1,0 +1,131 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:InventoryReport-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "InventoryReport":[{
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "ID":[{"IdentifierContent":"CC2679"}],
+ "CopyIndicator":[{"IndicatorContent":false}],
+ "IssueDate":[{"DateContent":"2010-04-12"}],
+ "Note":[{"TextContent":"Report about the quantities on stock."}],
+ "DocumentCurrencyCode":[{"CodeContent":"EUR",
+  "CodeListIdentifier":"ISO 4217 Alpha"}],
+ "InventoryPeriod":[{
+  "StartDate":[{"DateContent":"2010-04-11"}],
+  "StartTime":[{"TimeContent":"14:00:00"}],
+  "EndDate":[{"DateContent":"2010-04-11"}]
+ }],
+ "RetailerCustomerParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Beta Shop"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Emilia"}],
+    "BuildingNumber":[{"TextContent":"1"}],
+    "CityName":[{"TextContent":"Modena"}],
+    "PostalZone":[{"TextContent":"41121"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Delta"}],
+    "Telephone":[{"TextContent":"0039 059 33000000"}],
+    "Telefax":[{"TextContent":"0039 059 33000055"}],
+    "ElectronicMail":[{"TextContent":"delta@betashop.it"}]
+   }]
+  }]
+ }],
+ "InventoryReportingParty":[{
+  "PartyName":[{
+   "Name":[{"TextContent":"Arancio Forniture spa"}]
+  }],
+  "PostalAddress":[{
+   "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+   "BuildingNumber":[{"TextContent":"405"}],
+   "Department":[{"TextContent":"Sales and Planning Department"}],
+   "CityName":[{"TextContent":"Bologna"}],
+   "PostalZone":[{"TextContent":"40129"}],
+   "Country":[{
+    "IdentificationCode":[{"CodeContent":"IT"}],
+    "Name":[{"TextContent":"Italy"}]
+   }]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"Mr Bianchi"}],
+   "Telephone":[{"TextContent":"0039 051 23000008"}],
+   "Telefax":[{"TextContent":"0039 051 23000025"}],
+   "ElectronicMail":[{"TextContent":"bianchi@arancioforniture.it"}]
+  }]
+ }],
+ "SellerSupplierParty":[{
+  "Party":[{
+   "PartyName":[{
+    "Name":[{"TextContent":"Arancio Forniture spa"}]
+   }],
+   "PostalAddress":[{
+    "StreetName":[{"TextContent":"Via Dell'Arcoveggio"}],
+    "BuildingNumber":[{"TextContent":"403"}],
+    "CityName":[{"TextContent":"Bologna"}],
+    "PostalZone":[{"TextContent":"40129"}],
+    "Country":[{
+     "IdentificationCode":[{"CodeContent":"IT"}],
+     "Name":[{"TextContent":"Italy"}]
+    }]
+   }],
+   "Contact":[{
+    "Name":[{"TextContent":"Mr Rossi"}],
+    "Telephone":[{"TextContent":"0039 051 23000000"}],
+    "Telefax":[{"TextContent":"0039 051 23000023"}],
+    "ElectronicMail":[{"TextContent":"rossi@arancioforniture.it"}]
+   }]
+  }]
+ }],
+ "InventoryReportLine":[{
+  "ID":[{"IdentifierContent":"1"}],
+  "Quantity":[{"QuantityContent":10,
+   "QuantityUnitCode":"NAR"}],
+  "InventoryValueAmount":[{"AmountContent":200,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "Item":[{
+   "Description":[{"TextContent":"shirt"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"SH009"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"DD88"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"2"}],
+  "Quantity":[{"QuantityContent":15,
+   "QuantityUnitCode":"NAR"}],
+  "InventoryValueAmount":[{"AmountContent":750,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "Item":[{
+   "Description":[{"TextContent":"trousers"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"TH009"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"DA008"}]
+   }]
+  }]
+ },{
+  "ID":[{"IdentifierContent":"3"}],
+  "Quantity":[{"QuantityContent":5,
+   "QuantityUnitCode":"NAR"}],
+  "InventoryValueAmount":[{"AmountContent":300,
+   "AmountCurrencyIdentifier":"EUR"}],
+  "Item":[{
+   "Description":[{"TextContent":"woman's dress"}],
+   "BuyersItemIdentification":[{
+    "ID":[{"IdentifierContent":"DH019"}]
+   }],
+   "SellersItemIdentification":[{
+    "ID":[{"IdentifierContent":"BA058"}]
+   }]
+  }]
+ }]
+}]}

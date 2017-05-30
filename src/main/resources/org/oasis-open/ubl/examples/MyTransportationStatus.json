@@ -1,0 +1,47 @@
+{"_D":"urn:oasis:names:specification:ubl:schema:xsd:TransportationStatus-2",
+ "_S":"urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+ "_B":"urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+ "_E":"urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+ "TransportationStatus":[{
+ "UBLExtensions":[{
+  "UBLExtension":[{
+   "ExtensionContent":[{
+    "Additional":[{
+     "QualificationLevel":[{
+      "ID":[{"IdentifierContent": "L1"}],
+      "Description":[{"TextContent": "Level 1"}],
+      "LevelPrerequisite":[{"TextContent": "Level0"}]
+     }],
+     "ThirdPartyBilling":[{
+      "Party":[{
+       "PartyName":[{
+        "Name":[{"NameContent": "Jane Doe"}]
+       }]
+      }]
+     }]
+    }]
+   }]
+  }]
+ }],
+ "UBLVersionID":[{"IdentifierContent":"2.1"}],
+ "CustomizationID":[{"IdentifierContent":"urn:X-demo:TransportShipments"}],
+ "ProfileID":[{"IdentifierContent":"urn:X-demo:CoreElement"}],
+ "ID":[{"IdentifierContent":"1234"}],
+ "IssueDate":[{"DateContent":"2010-08-13"}],
+ "IssueTime":[{"TimeContent":"15:30:00.0Z"}],
+ "Description":[{"TextContent":"En route"}],
+ "Consignment":[{
+  "ID":[{"IdentifierContent":"XYZ987"}],
+  "SummaryDescription":[{"TextContent":"Electronic components"}]
+ }],
+ "TransportEvent":[{
+  "CurrentStatus":[{
+   "ConditionCode":[{"CodeContent":"31"}],
+   "Description":[{"TextContent":"En route"}]
+  }],
+  "Contact":[{
+   "Name":[{"TextContent":"John Smith"}],
+   "ElectronicMail":[{"TextContent":"jsmith@example.com"}]
+  }]
+ }]
+}]}
