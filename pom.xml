@@ -4,7 +4,7 @@
   <groupId>com.tradeshift</groupId>
   <artifactId>tradeshift-ubl-examples</artifactId>
   <packaging>bundle</packaging>
-  <version>2.1.1</version>
+  <version>2.2.0</version>
   <name>OASIS Universal Business Language examples</name>
   <url>http://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html</url>
   <description>
@@ -35,9 +35,9 @@
   <developers>
     <!-- Publisher of maven artifacts -->
     <developer>
-      <id>tradeshift-tnn</id>
-      <name>Troels Norgaard</name>
-      <email>tnn@tradeshift.com</email>
+      <id>tradeshift-jnt</id>
+      <name>Jesper Terkelsen</name>
+      <email>jnt@tradeshift.com</email>
       <organization>Tradeshift</organization>
       <roles>
         <role>maintainer</role>
