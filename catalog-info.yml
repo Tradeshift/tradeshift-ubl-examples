@@ -1,0 +1,18 @@
+# catalog-info.yml
+# This file contains metadata for backstage
+# Read more about available fields and annotations:
+#
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tradeshift-ubl-examples
+  description: |
+    OASIS UBL (Universal Business Language) example documents
+  annotations:
+    github.com/project-slug: Tradeshift/tradeshift-ubl-examples # GitHub project name
+  tags:
+    - xml
+spec:
+  type: other
+  owner: docsapi
+  lifecycle: production
